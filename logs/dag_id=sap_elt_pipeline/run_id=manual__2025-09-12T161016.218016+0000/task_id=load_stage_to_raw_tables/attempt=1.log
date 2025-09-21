@@ -1,0 +1,129 @@
+[2025-09-12T16:11:02.469+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sap_elt_pipeline.load_stage_to_raw_tables manual__2025-09-12T16:10:16.218016+00:00 [queued]>
+[2025-09-12T16:11:02.505+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sap_elt_pipeline.load_stage_to_raw_tables manual__2025-09-12T16:10:16.218016+00:00 [queued]>
+[2025-09-12T16:11:02.507+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-09-12T16:11:02.569+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): load_stage_to_raw_tables> on 2025-09-12 16:10:16.218016+00:00
+[2025-09-12T16:11:02.580+0000] {standard_task_runner.py:60} INFO - Started process 340 to run task
+[2025-09-12T16:11:02.589+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sap_elt_pipeline', 'load_stage_to_raw_tables', 'manual__2025-09-12T16:10:16.218016+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/sap_etl_pipeline.py', '--cfg-path', '/tmp/tmpzqp1o5vz']
+[2025-09-12T16:11:02.596+0000] {standard_task_runner.py:88} INFO - Job 29: Subtask load_stage_to_raw_tables
+[2025-09-12T16:11:02.744+0000] {task_command.py:423} INFO - Running <TaskInstance: sap_elt_pipeline.load_stage_to_raw_tables manual__2025-09-12T16:10:16.218016+00:00 [running]> on host f99cf7ca5f05
+[2025-09-12T16:11:02.989+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sap_elt_pipeline' AIRFLOW_CTX_TASK_ID='load_stage_to_raw_tables' AIRFLOW_CTX_EXECUTION_DATE='2025-09-12T16:10:16.218016+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-12T16:10:16.218016+00:00'
+[2025-09-12T16:11:02.992+0000] {sap_etl_pipeline.py:57} INFO - Starting to load data from stage into raw tables...
+[2025-09-12T16:11:02.993+0000] {sap_etl_pipeline.py:71} INFO - Executing COPY command for RAW_KNA1 from KNA1.csv.gz...
+[2025-09-12T16:11:03.012+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2025-09-12T16:11:03.014+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2025-09-12T16:11:03.016+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-12T16:11:04.544+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-09-12T16:11:04.881+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:04.886+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:04.890+0000] {sql.py:450} INFO - Running statement: COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+            FROM @RAW_STAGING.SAP_CSV_STAGE/KNA1.csv.gz
+            FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1, NULL_IF = ('NULL', ''))
+            ON_ERROR = 'CONTINUE';, parameters: None
+[2025-09-12T16:11:04.893+0000] {cursor.py:1028} INFO - query: [COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1 FROM @RAW_STAGING.SAP_CSV_STAGE/...]
+[2025-09-12T16:11:06.756+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:06.760+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:06.762+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-09-12T16:11:06.765+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2025-09-12T16:11:06.767+0000] {snowflake.py:401} INFO - Snowflake query id: 01bf012b-0106-6ca6-0010-1bf30006505a
+[2025-09-12T16:11:06.770+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-09-12T16:11:07.774+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:07.779+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:07.782+0000] {connection.py:718} INFO - closed
+[2025-09-12T16:11:08.078+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-09-12T16:11:08.391+0000] {sap_etl_pipeline.py:73} INFO - Successfully loaded data into RAW_KNA1.
+[2025-09-12T16:11:08.397+0000] {sap_etl_pipeline.py:71} INFO - Executing COPY command for RAW_MARA from MARA.csv.gz...
+[2025-09-12T16:11:08.428+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2025-09-12T16:11:08.432+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2025-09-12T16:11:08.435+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-12T16:11:09.938+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-09-12T16:11:10.246+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:10.249+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:10.252+0000] {sql.py:450} INFO - Running statement: COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+            FROM @RAW_STAGING.SAP_CSV_STAGE/MARA.csv.gz
+            FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1, NULL_IF = ('NULL', ''))
+            ON_ERROR = 'CONTINUE';, parameters: None
+[2025-09-12T16:11:10.254+0000] {cursor.py:1028} INFO - query: [COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA FROM @RAW_STAGING.SAP_CSV_STAGE/...]
+[2025-09-12T16:11:11.982+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:11.986+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:11.988+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-09-12T16:11:11.990+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2025-09-12T16:11:11.994+0000] {snowflake.py:401} INFO - Snowflake query id: 01bf012b-0106-6a61-0010-1bf30004b55e
+[2025-09-12T16:11:11.997+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-09-12T16:11:12.613+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:12.617+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:12.620+0000] {connection.py:718} INFO - closed
+[2025-09-12T16:11:13.207+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-09-12T16:11:13.476+0000] {sap_etl_pipeline.py:73} INFO - Successfully loaded data into RAW_MARA.
+[2025-09-12T16:11:13.480+0000] {sap_etl_pipeline.py:71} INFO - Executing COPY command for RAW_VBAK from VBAK.csv.gz...
+[2025-09-12T16:11:13.514+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2025-09-12T16:11:13.518+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2025-09-12T16:11:13.520+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-12T16:11:15.069+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-09-12T16:11:15.359+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:15.366+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:15.370+0000] {sql.py:450} INFO - Running statement: COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+            FROM @RAW_STAGING.SAP_CSV_STAGE/VBAK.csv.gz
+            FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1, NULL_IF = ('NULL', ''))
+            ON_ERROR = 'CONTINUE';, parameters: None
+[2025-09-12T16:11:15.373+0000] {cursor.py:1028} INFO - query: [COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK FROM @RAW_STAGING.SAP_CSV_STAGE/...]
+[2025-09-12T16:11:16.786+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:16.789+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:16.791+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-09-12T16:11:16.792+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2025-09-12T16:11:16.794+0000] {snowflake.py:401} INFO - Snowflake query id: 01bf012b-0106-6ca6-0010-1bf30006505e
+[2025-09-12T16:11:16.795+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-09-12T16:11:17.401+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:17.404+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:17.406+0000] {connection.py:718} INFO - closed
+[2025-09-12T16:11:17.706+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-09-12T16:11:18.020+0000] {sap_etl_pipeline.py:73} INFO - Successfully loaded data into RAW_VBAK.
+[2025-09-12T16:11:18.023+0000] {sap_etl_pipeline.py:71} INFO - Executing COPY command for RAW_VBAP from VBAP.csv.gz...
+[2025-09-12T16:11:18.056+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2025-09-12T16:11:18.059+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2025-09-12T16:11:18.063+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-12T16:11:19.156+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-09-12T16:11:19.439+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:19.443+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:19.445+0000] {sql.py:450} INFO - Running statement: COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+            FROM @RAW_STAGING.SAP_CSV_STAGE/VBAP.csv.gz
+            FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1, NULL_IF = ('NULL', ''))
+            ON_ERROR = 'CONTINUE';, parameters: None
+[2025-09-12T16:11:19.447+0000] {cursor.py:1028} INFO - query: [COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP FROM @RAW_STAGING.SAP_CSV_STAGE/...]
+[2025-09-12T16:11:20.988+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:20.991+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:20.994+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-09-12T16:11:20.996+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2025-09-12T16:11:20.998+0000] {snowflake.py:401} INFO - Snowflake query id: 01bf012b-0106-6a5b-0010-1bf30006704e
+[2025-09-12T16:11:21.000+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-09-12T16:11:21.556+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:21.560+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:21.563+0000] {connection.py:718} INFO - closed
+[2025-09-12T16:11:21.792+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-09-12T16:11:22.085+0000] {sap_etl_pipeline.py:73} INFO - Successfully loaded data into RAW_VBAP.
+[2025-09-12T16:11:22.090+0000] {sap_etl_pipeline.py:71} INFO - Executing COPY command for RAW_T005T from T005T.csv.gz...
+[2025-09-12T16:11:22.115+0000] {base.py:83} INFO - Using connection ID 'snowflake_default' for task execution.
+[2025-09-12T16:11:22.117+0000] {connection.py:370} INFO - Snowflake Connector for Python Version: 3.6.0, Python Version: 3.8.18, Platform: Linux-5.15.167.4-microsoft-standard-WSL2-x86_64-with-glibc2.34
+[2025-09-12T16:11:22.120+0000] {connection.py:1171} INFO - This connection is in OCSP Fail Open Mode. TLS Certificates would be checked for validity and revocation status. Any other Certificate Revocation related exceptions or OCSP Responder failures would be disregarded in favor of connectivity.
+[2025-09-12T16:11:23.960+0000] {cursor.py:1028} INFO - query: [ALTER SESSION SET autocommit=False]
+[2025-09-12T16:11:24.257+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:24.260+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:24.262+0000] {sql.py:450} INFO - Running statement: COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+            FROM @RAW_STAGING.SAP_CSV_STAGE/T005T.csv.gz
+            FILE_FORMAT = (TYPE = 'CSV' FIELD_DELIMITER = ',' SKIP_HEADER = 1, NULL_IF = ('NULL', ''))
+            ON_ERROR = 'CONTINUE';, parameters: None
+[2025-09-12T16:11:24.263+0000] {cursor.py:1028} INFO - query: [COPY INTO SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T FROM @RAW_STAGING.SAP_CSV_STAGE...]
+[2025-09-12T16:11:25.545+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:25.546+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:25.547+0000] {sql.py:459} INFO - Rows affected: 1
+[2025-09-12T16:11:25.548+0000] {snowflake.py:400} INFO - Rows affected: 1
+[2025-09-12T16:11:25.549+0000] {snowflake.py:401} INFO - Snowflake query id: 01bf012b-0106-6a8a-0010-1bf30006306a
+[2025-09-12T16:11:25.551+0000] {cursor.py:1028} INFO - query: [COMMIT]
+[2025-09-12T16:11:26.016+0000] {cursor.py:1041} INFO - query execution done
+[2025-09-12T16:11:26.020+0000] {cursor.py:1205} INFO - Number of results in first chunk: 1
+[2025-09-12T16:11:26.022+0000] {connection.py:718} INFO - closed
+[2025-09-12T16:11:26.301+0000] {connection.py:724} INFO - No async queries seem to be running, deleting session
+[2025-09-12T16:11:26.617+0000] {sap_etl_pipeline.py:73} INFO - Successfully loaded data into RAW_T005T.
+[2025-09-12T16:11:26.621+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-09-12T16:11:26.683+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sap_elt_pipeline, task_id=load_stage_to_raw_tables, execution_date=20250912T161016, start_date=20250912T161102, end_date=20250912T161126
+[2025-09-12T16:11:26.809+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-09-12T16:11:26.998+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

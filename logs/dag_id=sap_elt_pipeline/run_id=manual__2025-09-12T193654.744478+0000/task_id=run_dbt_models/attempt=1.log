@@ -1,0 +1,32 @@
+[2025-09-12T19:37:59.087+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T19:36:54.744478+00:00 [queued]>
+[2025-09-12T19:37:59.100+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T19:36:54.744478+00:00 [queued]>
+[2025-09-12T19:37:59.101+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-09-12T19:37:59.123+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_dbt_models> on 2025-09-12 19:36:54.744478+00:00
+[2025-09-12T19:37:59.130+0000] {standard_task_runner.py:60} INFO - Started process 11026 to run task
+[2025-09-12T19:37:59.135+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sap_elt_pipeline', 'run_dbt_models', 'manual__2025-09-12T19:36:54.744478+00:00', '--job-id', '51', '--raw', '--subdir', 'DAGS_FOLDER/sap_etl_pipeline.py', '--cfg-path', '/tmp/tmpbnn4tdxp']
+[2025-09-12T19:37:59.138+0000] {standard_task_runner.py:88} INFO - Job 51: Subtask run_dbt_models
+[2025-09-12T19:37:59.198+0000] {task_command.py:423} INFO - Running <TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T19:36:54.744478+00:00 [running]> on host f99cf7ca5f05
+[2025-09-12T19:37:59.316+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sap_elt_pipeline' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-09-12T19:36:54.744478+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-12T19:36:54.744478+00:00'
+[2025-09-12T19:37:59.319+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-12T19:37:59.322+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt --profiles-dir /opt/***/dbt']
+[2025-09-12T19:37:59.338+0000] {subprocess.py:86} INFO - Output:
+[2025-09-12T19:38:02.054+0000] {subprocess.py:93} INFO - [0m19:38:02  Running with dbt=1.9.0-b2
+[2025-09-12T19:38:02.058+0000] {subprocess.py:93} INFO - [0m19:38:02  [[33mWARNING[0m]: Deprecated functionality
+[2025-09-12T19:38:02.058+0000] {subprocess.py:93} INFO - 
+[2025-09-12T19:38:02.059+0000] {subprocess.py:93} INFO - User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[2025-09-12T19:38:04.159+0000] {subprocess.py:93} INFO - [0m19:38:04  Registered adapter: snowflake=1.8.0
+[2025-09-12T19:38:05.256+0000] {subprocess.py:93} INFO - [0m19:38:05  Encountered an error:
+[2025-09-12T19:38:05.257+0000] {subprocess.py:93} INFO - Compilation Error
+[2025-09-12T19:38:05.264+0000] {subprocess.py:93} INFO -   Model 'model.dbt_sap_transformations.stg_sales_order_items' (models/staging/stg_sales_order_items.sql) depends on a source named 'ANALYTICS.RAW_VBAP' which was not found
+[2025-09-12T19:38:05.814+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-09-12T19:38:05.840+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-09-12T19:38:05.857+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=sap_elt_pipeline, task_id=run_dbt_models, execution_date=20250912T193654, start_date=20250912T193759, end_date=20250912T193805
+[2025-09-12T19:38:05.883+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 51 for task run_dbt_models (Bash command failed. The command returned a non-zero exit code 2.; 11026)
+[2025-09-12T19:38:05.925+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-09-12T19:38:05.953+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

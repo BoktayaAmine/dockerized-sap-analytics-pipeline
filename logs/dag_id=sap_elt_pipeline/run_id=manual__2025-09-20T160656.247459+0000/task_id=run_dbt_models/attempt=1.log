@@ -1,0 +1,39 @@
+[2025-09-20T16:08:15.108+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-20T16:06:56.247459+00:00 [queued]>
+[2025-09-20T16:08:15.166+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-20T16:06:56.247459+00:00 [queued]>
+[2025-09-20T16:08:15.169+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-09-20T16:08:15.208+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_dbt_models> on 2025-09-20 16:06:56.247459+00:00
+[2025-09-20T16:08:15.218+0000] {standard_task_runner.py:60} INFO - Started process 5772 to run task
+[2025-09-20T16:08:15.226+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sap_elt_pipeline', 'run_dbt_models', 'manual__2025-09-20T16:06:56.247459+00:00', '--job-id', '86', '--raw', '--subdir', 'DAGS_FOLDER/sap_etl_pipeline.py', '--cfg-path', '/tmp/tmp84lzhlsx']
+[2025-09-20T16:08:15.232+0000] {standard_task_runner.py:88} INFO - Job 86: Subtask run_dbt_models
+[2025-09-20T16:08:15.321+0000] {task_command.py:423} INFO - Running <TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-20T16:06:56.247459+00:00 [running]> on host ca9121c9acbc
+[2025-09-20T16:08:15.629+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sap_elt_pipeline' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-09-20T16:06:56.247459+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-20T16:06:56.247459+00:00'
+[2025-09-20T16:08:15.636+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-20T16:08:15.642+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt --profiles-dir /opt/***/dbt']
+[2025-09-20T16:08:15.672+0000] {subprocess.py:86} INFO - Output:
+[2025-09-20T16:08:21.821+0000] {subprocess.py:93} INFO - [0m16:08:21  Running with dbt=1.9.0-b2
+[2025-09-20T16:08:21.829+0000] {subprocess.py:93} INFO - [0m16:08:21  [[33mWARNING[0m]: Deprecated functionality
+[2025-09-20T16:08:21.830+0000] {subprocess.py:93} INFO - 
+[2025-09-20T16:08:21.832+0000] {subprocess.py:93} INFO - User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[2025-09-20T16:08:25.090+0000] {subprocess.py:93} INFO - [0m16:08:25  Registered adapter: snowflake=1.8.0
+[2025-09-20T16:08:26.994+0000] {subprocess.py:93} INFO - [0m16:08:26  Found 5 models, 5 sources, 453 macros
+[2025-09-20T16:08:27.001+0000] {subprocess.py:93} INFO - [0m16:08:27
+[2025-09-20T16:08:27.003+0000] {subprocess.py:93} INFO - [0m16:08:27  Concurrency: 4 threads (target='dev')
+[2025-09-20T16:08:27.006+0000] {subprocess.py:93} INFO - [0m16:08:27
+[2025-09-20T16:08:31.584+0000] {subprocess.py:93} INFO - [0m16:08:31
+[2025-09-20T16:08:31.589+0000] {subprocess.py:93} INFO - [0m16:08:31  Finished running  in 0 hours 0 minutes and 4.57 seconds (4.57s).
+[2025-09-20T16:08:31.596+0000] {subprocess.py:93} INFO - [0m16:08:31  Encountered an error:
+[2025-09-20T16:08:31.599+0000] {subprocess.py:93} INFO - Database Error
+[2025-09-20T16:08:31.601+0000] {subprocess.py:93} INFO -   003001 (42501): SQL access control error:
+[2025-09-20T16:08:31.604+0000] {subprocess.py:93} INFO -   Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[2025-09-20T16:08:32.361+0000] {subprocess.py:97} INFO - Command exited with return code 2
+[2025-09-20T16:08:32.393+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.8/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 2.
+[2025-09-20T16:08:32.403+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=sap_elt_pipeline, task_id=run_dbt_models, execution_date=20250920T160656, start_date=20250920T160815, end_date=20250920T160832
+[2025-09-20T16:08:32.450+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 86 for task run_dbt_models (Bash command failed. The command returned a non-zero exit code 2.; 5772)
+[2025-09-20T16:08:32.479+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-09-20T16:08:32.537+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

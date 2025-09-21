@@ -1,0 +1,655 @@
+[2025-08-31T17:27:54.882+0000] {processor.py:161} INFO - Started process (PID=204) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:27:54.887+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:27:54.896+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:54.894+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:27:55.016+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:27:55.931+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:55.930+0000] {override.py:1769} INFO - Created Permission View: can edit on DAG:sap_elt_pipeline
+[2025-08-31T17:27:55.958+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:55.957+0000] {override.py:1769} INFO - Created Permission View: can delete on DAG:sap_elt_pipeline
+[2025-08-31T17:27:55.980+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:55.979+0000] {override.py:1769} INFO - Created Permission View: can read on DAG:sap_elt_pipeline
+[2025-08-31T17:27:55.981+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:55.981+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:27:56.101+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:56.100+0000] {dag.py:3058} INFO - Creating ORM DAG for sap_elt_pipeline
+[2025-08-31T17:27:56.112+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:27:56.111+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:27:56.298+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 1.426 seconds
+[2025-08-31T17:28:26.735+0000] {processor.py:161} INFO - Started process (PID=230) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:26.738+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:28:26.746+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:26.744+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:26.820+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:26.912+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:26.912+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:28:26.982+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:26.982+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:28:27.035+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.317 seconds
+[2025-08-31T17:28:57.328+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:57.331+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:28:57.337+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:57.336+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:57.395+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:28:57.481+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:57.480+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:28:57.543+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:28:57.542+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:28:57.672+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.356 seconds
+[2025-08-31T17:29:28.250+0000] {processor.py:161} INFO - Started process (PID=274) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:28.255+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:29:28.267+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:28.265+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:28.362+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:28.518+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:28.517+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:29:28.582+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:28.581+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:29:28.686+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.453 seconds
+[2025-08-31T17:29:59.332+0000] {processor.py:161} INFO - Started process (PID=300) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:59.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:29:59.350+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:59.349+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:59.450+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:29:59.563+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:59.562+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:29:59.624+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:29:59.623+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:29:59.741+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.420 seconds
+[2025-08-31T17:30:30.540+0000] {processor.py:161} INFO - Started process (PID=318) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:30:30.544+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:30:30.552+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:30:30.550+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:30:30.611+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:30:30.727+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:30:30.727+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:30:30.820+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:30:30.819+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:30:30.978+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.451 seconds
+[2025-08-31T17:31:01.766+0000] {processor.py:161} INFO - Started process (PID=344) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:01.769+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:31:01.777+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:01.776+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:01.877+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:01.994+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:01.993+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:31:02.040+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:02.039+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:31:02.107+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.355 seconds
+[2025-08-31T17:31:32.488+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:32.490+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:31:32.496+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:32.495+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:32.540+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:31:32.599+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:32.598+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:31:32.626+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:31:32.626+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:31:32.691+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.212 seconds
+[2025-08-31T17:32:04.143+0000] {processor.py:161} INFO - Started process (PID=389) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:04.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:32:04.174+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:04.167+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:04.562+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:04.999+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:04.998+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:32:05.170+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:05.168+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:32:05.507+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 1.404 seconds
+[2025-08-31T17:32:36.211+0000] {processor.py:161} INFO - Started process (PID=414) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:36.220+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:32:36.235+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:36.233+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:36.399+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:32:36.594+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:36.592+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:32:36.710+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:32:36.709+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:32:36.806+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.640 seconds
+[2025-08-31T17:33:07.703+0000] {processor.py:161} INFO - Started process (PID=433) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:07.708+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:33:07.725+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:07.724+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:07.933+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:08.312+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:08.311+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:33:08.535+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:08.533+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:33:08.787+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 1.110 seconds
+[2025-08-31T17:33:39.266+0000] {processor.py:161} INFO - Started process (PID=460) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:39.270+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:33:39.277+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:39.276+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:39.343+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:33:39.458+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:39.458+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:33:39.511+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:33:39.511+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:33:39.576+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.323 seconds
+[2025-08-31T17:34:10.110+0000] {processor.py:161} INFO - Started process (PID=486) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:10.113+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:34:10.120+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:10.118+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:10.180+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:10.252+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:10.251+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:34:10.278+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:10.278+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:34:10.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.227 seconds
+[2025-08-31T17:34:40.727+0000] {processor.py:161} INFO - Started process (PID=504) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:40.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:34:40.737+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:40.736+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:40.806+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:34:40.906+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:40.906+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:34:40.968+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:34:40.967+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:34:41.031+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.316 seconds
+[2025-08-31T17:35:11.775+0000] {processor.py:161} INFO - Started process (PID=530) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:11.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:35:11.797+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:11.794+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:11.933+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:12.089+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:12.088+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:35:12.177+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:12.175+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:35:12.302+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.555 seconds
+[2025-08-31T17:35:42.920+0000] {processor.py:161} INFO - Started process (PID=557) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:42.923+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:35:42.930+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:42.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:42.998+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:35:43.095+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:43.094+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:35:43.129+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:35:43.128+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:35:43.204+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.292 seconds
+[2025-08-31T17:36:13.573+0000] {processor.py:161} INFO - Started process (PID=583) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:13.588+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:36:13.599+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:13.598+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:13.657+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:13.715+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:13.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:36:13.739+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:13.738+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:36:13.794+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.242 seconds
+[2025-08-31T17:36:44.361+0000] {processor.py:161} INFO - Started process (PID=601) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:44.365+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:36:44.372+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:44.371+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:44.429+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:36:44.508+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:44.508+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:36:44.544+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:36:44.544+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:36:44.595+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.248 seconds
+[2025-08-31T17:37:15.335+0000] {processor.py:161} INFO - Started process (PID=627) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:15.338+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:37:15.351+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:15.344+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:15.412+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:15.473+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:15.472+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:37:15.536+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:15.535+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:37:15.600+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.277 seconds
+[2025-08-31T17:37:45.927+0000] {processor.py:161} INFO - Started process (PID=652) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:45.929+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:37:45.933+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:45.932+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:45.970+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:37:46.021+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:46.020+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:37:46.044+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:37:46.043+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:37:46.082+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.163 seconds
+[2025-08-31T17:38:16.698+0000] {processor.py:161} INFO - Started process (PID=671) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:16.703+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:38:16.715+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:16.713+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:16.824+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:16.961+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:16.960+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:38:17.026+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:17.025+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:38:17.143+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.462 seconds
+[2025-08-31T17:38:48.044+0000] {processor.py:161} INFO - Started process (PID=698) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:48.093+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:38:48.121+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:48.119+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:48.330+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:38:48.608+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:48.607+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:38:48.766+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:38:48.764+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:38:49.061+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 1.040 seconds
+[2025-08-31T17:39:19.684+0000] {processor.py:161} INFO - Started process (PID=724) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:19.688+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:39:19.695+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:19.693+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:19.754+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:19.830+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:19.830+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:39:19.868+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:19.867+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:39:19.920+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.249 seconds
+[2025-08-31T17:39:50.386+0000] {processor.py:161} INFO - Started process (PID=742) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:50.388+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:39:50.393+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:50.392+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:50.467+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:39:50.542+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:50.541+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:39:50.610+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:39:50.610+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:39:50.763+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.387 seconds
+[2025-08-31T17:40:21.075+0000] {processor.py:161} INFO - Started process (PID=768) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:21.079+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:40:21.091+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:21.090+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:21.207+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:21.345+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:21.344+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:40:21.377+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:21.377+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:40:21.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.376 seconds
+[2025-08-31T17:40:51.943+0000] {processor.py:161} INFO - Started process (PID=794) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:51.946+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:40:51.950+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:51.949+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:51.990+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:40:52.058+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:52.058+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:40:52.080+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:40:52.080+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:40:52.118+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.183 seconds
+[2025-08-31T17:41:22.730+0000] {processor.py:161} INFO - Started process (PID=812) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:22.735+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:41:22.749+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:22.747+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:22.854+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:22.974+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:22.974+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:41:23.003+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:23.002+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:41:23.048+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.335 seconds
+[2025-08-31T17:41:53.532+0000] {processor.py:161} INFO - Started process (PID=839) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:53.540+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:41:53.548+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:53.547+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:53.592+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:41:53.645+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:53.644+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:41:53.682+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:41:53.682+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:41:53.720+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.228 seconds
+[2025-08-31T17:42:24.365+0000] {processor.py:161} INFO - Started process (PID=865) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:24.367+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:42:24.373+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:24.372+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:24.419+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:24.479+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:24.479+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:42:24.511+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:24.510+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:42:24.557+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.198 seconds
+[2025-08-31T17:42:55.206+0000] {processor.py:161} INFO - Started process (PID=883) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:55.209+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:42:55.217+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:55.216+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:55.358+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:42:55.442+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:55.441+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:42:55.467+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:42:55.466+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:42:55.510+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.316 seconds
+[2025-08-31T17:43:26.119+0000] {processor.py:161} INFO - Started process (PID=909) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:26.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:43:26.126+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:26.125+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:26.169+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:26.240+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:26.239+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:43:26.306+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:26.305+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:43:26.387+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.277 seconds
+[2025-08-31T17:43:56.746+0000] {processor.py:161} INFO - Started process (PID=935) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:56.748+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:43:56.752+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:56.752+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:56.794+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:43:56.857+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:56.857+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:43:56.888+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:43:56.887+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:43:56.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.205 seconds
+[2025-08-31T17:44:27.603+0000] {processor.py:161} INFO - Started process (PID=953) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:27.606+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:44:27.612+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:27.611+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:27.696+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:27.813+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:27.811+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:44:27.868+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:27.868+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:44:27.913+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.322 seconds
+[2025-08-31T17:44:58.263+0000] {processor.py:161} INFO - Started process (PID=979) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:58.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:44:58.276+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:58.274+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:58.332+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:44:58.415+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:58.415+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:44:58.470+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:44:58.470+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:44:58.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.319 seconds
+[2025-08-31T17:45:29.249+0000] {processor.py:161} INFO - Started process (PID=1005) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:45:29.252+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:45:29.258+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:45:29.257+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:45:29.318+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:45:29.558+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:45:29.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:45:29.648+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:45:29.648+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:45:29.732+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.495 seconds
+[2025-08-31T17:46:00.648+0000] {processor.py:161} INFO - Started process (PID=1023) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:00.654+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:46:00.664+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:00.662+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:00.774+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:00.916+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:00.916+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:46:00.960+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:00.959+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:46:00.993+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.364 seconds
+[2025-08-31T17:46:31.230+0000] {processor.py:161} INFO - Started process (PID=1049) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:31.235+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:46:31.244+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:31.242+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:31.302+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:46:31.368+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:31.367+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:46:31.398+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:46:31.397+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:46:31.444+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.227 seconds
+[2025-08-31T17:47:02.114+0000] {processor.py:161} INFO - Started process (PID=1075) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:02.120+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:47:02.132+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:02.131+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:02.300+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:02.529+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:02.529+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:47:02.577+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:02.576+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:47:02.695+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.597 seconds
+[2025-08-31T17:47:33.431+0000] {processor.py:161} INFO - Started process (PID=1096) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:33.434+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:47:33.450+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:33.449+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:33.553+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:47:33.773+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:33.772+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:47:33.846+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:47:33.846+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:47:33.912+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.501 seconds
+[2025-08-31T17:48:04.570+0000] {processor.py:161} INFO - Started process (PID=1121) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:04.573+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:48:04.578+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:04.578+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:04.627+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:04.716+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:04.714+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:48:04.768+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:04.767+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:48:04.852+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.290 seconds
+[2025-08-31T17:48:35.195+0000] {processor.py:161} INFO - Started process (PID=1147) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:35.197+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:48:35.202+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:35.202+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:35.260+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:48:35.330+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:35.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:48:35.354+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:48:35.353+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:48:35.401+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.217 seconds
+[2025-08-31T17:49:06.084+0000] {processor.py:161} INFO - Started process (PID=1173) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:06.096+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:49:06.109+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:06.104+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:06.187+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:06.257+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:06.256+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:49:06.293+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:06.293+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:49:06.434+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.366 seconds
+[2025-08-31T17:49:37.059+0000] {processor.py:161} INFO - Started process (PID=1194) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:37.063+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:49:37.068+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:37.067+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:37.142+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:49:37.246+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:37.245+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:49:37.298+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:49:37.297+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:49:37.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.301 seconds
+[2025-08-31T17:50:07.582+0000] {processor.py:161} INFO - Started process (PID=1218) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:07.585+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:50:07.590+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:07.589+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:07.636+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:07.702+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:07.701+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:50:07.730+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:07.730+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:50:07.777+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.206 seconds
+[2025-08-31T17:50:38.371+0000] {processor.py:161} INFO - Started process (PID=1236) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:38.375+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:50:38.380+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:38.379+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:38.446+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:50:38.553+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:38.552+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:50:38.605+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:50:38.604+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:50:38.675+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.314 seconds
+[2025-08-31T17:51:09.262+0000] {processor.py:161} INFO - Started process (PID=1262) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:09.268+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:51:09.281+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:09.279+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:09.436+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:09.558+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:09.557+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:51:09.586+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:09.585+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:51:09.636+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.390 seconds
+[2025-08-31T17:51:39.793+0000] {processor.py:161} INFO - Started process (PID=1288) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:39.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:51:39.799+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:39.799+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:39.834+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:51:39.880+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:39.879+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:51:39.905+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:51:39.904+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:51:39.941+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.155 seconds
+[2025-08-31T17:52:10.717+0000] {processor.py:161} INFO - Started process (PID=1306) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:10.721+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:52:10.727+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:10.726+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:10.769+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:10.838+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:10.837+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:52:10.873+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:10.873+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:52:10.983+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.278 seconds
+[2025-08-31T17:52:41.299+0000] {processor.py:161} INFO - Started process (PID=1332) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:41.307+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:52:41.318+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:41.317+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:41.402+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:52:41.592+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:41.591+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:52:41.638+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:52:41.638+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:52:41.714+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.428 seconds
+[2025-08-31T17:53:12.475+0000] {processor.py:161} INFO - Started process (PID=1358) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:12.478+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:53:12.482+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:12.482+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:12.526+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:12.576+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:12.575+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:53:12.605+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:12.604+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:53:12.644+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.177 seconds
+[2025-08-31T17:53:43.213+0000] {processor.py:161} INFO - Started process (PID=1379) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:43.221+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:53:43.232+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:43.230+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:43.299+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:53:43.402+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:43.401+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:53:43.460+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:53:43.459+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:53:43.544+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.375 seconds
+[2025-08-31T17:54:14.180+0000] {processor.py:161} INFO - Started process (PID=1405) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:14.183+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:54:14.190+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:14.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:14.251+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:14.328+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:14.327+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:54:14.367+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:14.366+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:54:14.417+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.247 seconds
+[2025-08-31T17:54:44.668+0000] {processor.py:161} INFO - Started process (PID=1431) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:44.670+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:54:44.675+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:44.674+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:44.721+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:54:44.830+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:44.830+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:54:44.878+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:54:44.878+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:54:44.945+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.285 seconds
+[2025-08-31T17:55:15.516+0000] {processor.py:161} INFO - Started process (PID=1449) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:15.519+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:55:15.524+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:15.523+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:15.575+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:15.658+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:15.658+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:55:15.708+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:15.707+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:55:15.757+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.249 seconds
+[2025-08-31T17:55:46.666+0000] {processor.py:161} INFO - Started process (PID=1475) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:46.672+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:55:46.687+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:46.686+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:46.771+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:55:46.868+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:46.866+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:55:46.912+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:55:46.912+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:55:46.970+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.328 seconds
+[2025-08-31T17:56:17.627+0000] {processor.py:161} INFO - Started process (PID=1501) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:17.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:56:17.636+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:17.635+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:17.695+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:17.762+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:17.762+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:56:17.789+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:17.789+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:56:17.837+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.222 seconds
+[2025-08-31T17:56:48.493+0000] {processor.py:161} INFO - Started process (PID=1522) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:48.498+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:56:48.515+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:48.513+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:48.638+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:56:48.754+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:48.754+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:56:48.808+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:56:48.807+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:56:48.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.404 seconds
+[2025-08-31T17:57:19.689+0000] {processor.py:161} INFO - Started process (PID=1548) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:19.692+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:57:19.697+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:19.696+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:19.738+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:19.795+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:19.795+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:57:19.821+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:19.820+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:57:19.858+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.180 seconds
+[2025-08-31T17:57:50.775+0000] {processor.py:161} INFO - Started process (PID=1566) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:50.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:57:50.788+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:50.787+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:50.872+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:57:51.036+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:51.035+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:57:51.112+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:57:51.109+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:57:51.258+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.497 seconds
+[2025-08-31T17:58:22.235+0000] {processor.py:161} INFO - Started process (PID=1594) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:22.240+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:58:22.250+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:22.249+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:22.361+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:22.474+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:22.473+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:58:22.554+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:22.554+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:58:22.651+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.440 seconds
+[2025-08-31T17:58:53.314+0000] {processor.py:161} INFO - Started process (PID=1612) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:53.317+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:58:53.328+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:53.323+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:53.389+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:58:53.468+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:53.467+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:58:53.501+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:58:53.500+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:58:53.568+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.273 seconds
+[2025-08-31T17:59:24.022+0000] {processor.py:161} INFO - Started process (PID=1638) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:24.026+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:59:24.033+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:24.032+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:24.112+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:24.236+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:24.235+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:59:24.278+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:24.278+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:59:24.348+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.341 seconds
+[2025-08-31T17:59:54.788+0000] {processor.py:161} INFO - Started process (PID=1664) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:54.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T17:59:54.805+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:54.804+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:54.837+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T17:59:54.883+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:54.882+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T17:59:54.905+0000] {logging_mixin.py:188} INFO - [2025-08-31T17:59:54.905+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T17:59:54.942+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.166 seconds
+[2025-08-31T18:00:25.421+0000] {processor.py:161} INFO - Started process (PID=1689) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:25.423+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:00:25.427+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:25.426+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:25.476+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:25.522+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:25.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:00:25.546+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:25.545+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:00:25.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.178 seconds
+[2025-08-31T18:00:56.117+0000] {processor.py:161} INFO - Started process (PID=1708) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:56.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:00:56.130+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:56.128+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:56.229+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:00:56.358+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:56.357+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:00:56.421+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:00:56.420+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:00:56.516+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.414 seconds
+[2025-08-31T18:01:26.749+0000] {processor.py:161} INFO - Started process (PID=1734) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:26.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:01:26.764+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:26.763+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:26.866+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:27.002+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:27.001+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:01:27.067+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:27.067+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:01:27.183+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.450 seconds
+[2025-08-31T18:01:57.617+0000] {processor.py:161} INFO - Started process (PID=1760) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:57.621+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:01:57.626+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:57.625+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:57.706+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:01:57.796+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:57.796+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:01:57.831+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:01:57.830+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:01:57.882+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.275 seconds
+[2025-08-31T18:02:28.432+0000] {processor.py:161} INFO - Started process (PID=1787) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:28.436+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:02:28.443+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:28.442+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:28.501+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:28.575+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:28.575+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:02:28.609+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:28.609+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:02:28.658+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.236 seconds
+[2025-08-31T18:02:59.306+0000] {processor.py:161} INFO - Started process (PID=1805) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:59.312+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:02:59.328+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:59.327+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:59.450+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:02:59.585+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:59.583+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:02:59.690+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:02:59.689+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:02:59.820+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.538 seconds
+[2025-08-31T18:03:30.607+0000] {processor.py:161} INFO - Started process (PID=1831) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:03:30.623+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:03:30.637+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:03:30.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:03:30.752+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:03:31.000+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:03:30.996+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:03:31.184+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:03:31.183+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:03:31.306+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.720 seconds
+[2025-08-31T18:04:01.921+0000] {processor.py:161} INFO - Started process (PID=1857) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:01.924+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:04:01.930+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:01.929+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:02.002+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:02.082+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:02.082+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:04:02.127+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:02.126+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:04:02.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.261 seconds
+[2025-08-31T18:04:32.876+0000] {processor.py:161} INFO - Started process (PID=1883) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:32.880+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:04:32.889+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:32.888+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:32.969+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:04:33.024+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:33.024+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:04:33.053+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:04:33.052+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:04:33.091+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.230 seconds
+[2025-08-31T18:05:03.529+0000] {processor.py:161} INFO - Started process (PID=1901) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:03.535+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:05:03.545+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:03.543+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:03.655+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:03.783+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:03.783+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:05:03.825+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:03.825+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:05:03.887+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.376 seconds
+[2025-08-31T18:05:34.141+0000] {processor.py:161} INFO - Started process (PID=1927) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:34.143+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:05:34.148+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:34.148+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:34.207+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:05:34.280+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:34.280+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:05:34.317+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:05:34.316+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:05:34.385+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.252 seconds
+[2025-08-31T18:06:05.003+0000] {processor.py:161} INFO - Started process (PID=1953) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:05.006+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:06:05.010+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:05.010+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:05.050+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:05.119+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:05.119+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:06:05.154+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:05.154+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:06:05.188+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.193 seconds
+[2025-08-31T18:06:35.563+0000] {processor.py:161} INFO - Started process (PID=1979) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:35.565+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:06:35.569+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:35.568+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:35.608+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:06:35.655+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:35.655+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:06:35.677+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:06:35.677+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:06:35.713+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.157 seconds
+[2025-08-31T18:07:06.326+0000] {processor.py:161} INFO - Started process (PID=2004) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:06.328+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:07:06.332+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:06.331+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:06.380+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:06.522+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:06.522+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:07:06.556+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:06.556+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:07:06.602+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.285 seconds
+[2025-08-31T18:07:37.292+0000] {processor.py:161} INFO - Started process (PID=2023) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:37.294+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:07:37.301+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:37.300+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:37.347+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:07:37.405+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:37.404+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:07:37.434+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:07:37.433+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:07:37.480+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.198 seconds
+[2025-08-31T18:08:08.088+0000] {processor.py:161} INFO - Started process (PID=2049) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:08.121+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:08:08.138+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:08.137+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:08.217+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:08.330+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:08.330+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:08:08.388+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:08.388+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:08:08.504+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.437 seconds
+[2025-08-31T18:08:39.107+0000] {processor.py:161} INFO - Started process (PID=2075) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:39.110+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:08:39.117+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:39.116+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:39.170+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:08:39.227+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:39.227+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:08:39.256+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:08:39.255+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:08:39.297+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.202 seconds
+[2025-08-31T18:09:09.742+0000] {processor.py:161} INFO - Started process (PID=2094) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:09.751+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:09:09.763+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:09.759+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:09.891+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:10.067+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:10.064+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:09:10.240+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:10.238+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:09:10.397+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.684 seconds
+[2025-08-31T18:09:40.814+0000] {processor.py:161} INFO - Started process (PID=2120) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:40.817+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:09:40.829+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:40.826+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:40.931+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:09:41.066+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:41.065+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:09:41.132+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:09:41.130+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:09:41.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.459 seconds
+[2025-08-31T18:10:11.980+0000] {processor.py:161} INFO - Started process (PID=2138) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:11.985+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:10:11.993+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:11.991+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:12.066+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:12.147+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:12.147+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:10:12.192+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:12.191+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:10:12.284+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.328 seconds
+[2025-08-31T18:10:42.604+0000] {processor.py:161} INFO - Started process (PID=2164) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:42.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:10:42.618+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:42.617+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:42.754+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:10:42.879+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:42.878+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:10:42.901+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:10:42.901+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:10:42.936+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.354 seconds
+[2025-08-31T18:11:13.480+0000] {processor.py:161} INFO - Started process (PID=2190) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:13.483+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:11:13.488+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:13.487+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:13.519+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:13.594+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:13.594+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:11:13.663+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:13.662+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:11:13.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.239 seconds
+[2025-08-31T18:11:44.181+0000] {processor.py:161} INFO - Started process (PID=2216) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:44.184+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:11:44.190+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:44.188+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:44.249+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:11:44.334+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:44.333+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:11:44.372+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:11:44.371+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:11:44.432+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.260 seconds
+[2025-08-31T18:12:14.627+0000] {processor.py:161} INFO - Started process (PID=2234) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:14.630+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:12:14.634+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:14.634+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:14.671+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:14.720+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:14.720+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:12:14.742+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:14.742+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:12:14.780+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.161 seconds
+[2025-08-31T18:12:45.282+0000] {processor.py:161} INFO - Started process (PID=2260) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:45.284+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:12:45.289+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:45.288+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:45.332+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:12:45.386+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:45.385+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:12:45.407+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:12:45.407+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:12:45.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.175 seconds
+[2025-08-31T18:13:15.780+0000] {processor.py:161} INFO - Started process (PID=2286) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:15.783+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:13:15.790+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:15.789+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:15.839+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:15.983+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:15.983+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:13:16.012+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:16.011+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:13:16.052+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.286 seconds
+[2025-08-31T18:13:46.586+0000] {processor.py:161} INFO - Started process (PID=2312) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:46.590+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:13:46.609+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:46.604+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:46.840+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:13:46.991+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:46.990+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:13:47.060+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:13:47.059+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:13:47.172+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.601 seconds
+[2025-08-31T18:14:17.953+0000] {processor.py:161} INFO - Started process (PID=2330) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:17.958+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:14:17.973+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:17.971+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:18.062+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:18.289+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:18.287+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:14:18.475+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:18.472+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:14:18.809+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.875 seconds
+[2025-08-31T18:14:49.682+0000] {processor.py:161} INFO - Started process (PID=2357) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:49.684+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:14:49.690+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:49.689+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:49.743+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:14:49.821+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:49.821+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:14:49.862+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:14:49.861+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:14:49.939+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.266 seconds
+[2025-08-31T18:15:20.260+0000] {processor.py:161} INFO - Started process (PID=2382) to work on /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:15:20.263+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sap_etl_pipeline.py for tasks to queue
+[2025-08-31T18:15:20.269+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:15:20.268+0000] {dagbag.py:538} INFO - Filling up the DagBag from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:15:20.323+0000] {processor.py:840} INFO - DAG(s) 'sap_elt_pipeline' retrieved from /opt/airflow/dags/sap_etl_pipeline.py
+[2025-08-31T18:15:20.432+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:15:20.432+0000] {dag.py:3036} INFO - Sync 1 DAGs
+[2025-08-31T18:15:20.488+0000] {logging_mixin.py:188} INFO - [2025-08-31T18:15:20.487+0000] {dag.py:3823} INFO - Setting next_dagrun for sap_elt_pipeline to None, run_after=None
+[2025-08-31T18:15:20.547+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sap_etl_pipeline.py took 0.298 seconds

@@ -1,0 +1,1628 @@
+
+
+============================== 16:55:11.759881 | 9621dd97-073f-41ee-90dc-d5952d807675 ==============================
+[0m16:55:11.759881 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:55:11.767479 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:55:11.768828 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:55:13.713284 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:55:13.750305 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:55:13.754988 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m16:55:16.101242 [info ] [MainThread]: Found 453 macros
+[0m16:55:16.103311 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:55:16.104599 [debug] [MainThread]: Command end result
+[0m16:55:16.182002 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 4.543021, "process_user_time": 6.156372, "process_kernel_time": 0.969428, "process_mem_max_rss": "192080", "process_in_blocks": "13992", "process_out_blocks": "0"}
+[0m16:55:16.183716 [debug] [MainThread]: Command `dbt run` succeeded at 16:55:16.183405 after 4.54 seconds
+[0m16:55:16.185003 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:55:21.140643 | 887c521c-d09c-413b-af03-ec29a6c72d6c ==============================
+[0m16:55:21.140643 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:55:21.154593 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:55:21.156015 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:55:22.631339 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:55:22.661350 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:55:22.823706 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:55:22.824773 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:55:23.009539 [info ] [MainThread]: Found 453 macros
+[0m16:55:23.011789 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:55:23.015234 [debug] [MainThread]: Command end result
+[0m16:55:23.103541 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 2.109039, "process_user_time": 4.191717, "process_kernel_time": 0.763958, "process_mem_max_rss": "196112", "process_in_blocks": "600", "process_out_blocks": "0"}
+[0m16:55:23.104949 [debug] [MainThread]: Command `dbt test` succeeded at 16:55:23.104790 after 2.11 seconds
+[0m16:55:23.105925 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:13:58.611555 | e7ed51b4-ea62-4231-9d8e-37a0d2c7822a ==============================
+[0m17:13:58.611555 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:13:58.620684 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m17:13:58.622270 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:14:00.362122 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:14:00.416144 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:14:00.598836 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:14:00.599987 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:14:00.781180 [info ] [MainThread]: Found 453 macros
+[0m17:14:00.783269 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:14:00.786646 [debug] [MainThread]: Command end result
+[0m17:14:00.881354 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 2.391168, "process_user_time": 4.525568, "process_kernel_time": 0.869148, "process_mem_max_rss": "198104", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:14:00.882724 [debug] [MainThread]: Command `dbt run` succeeded at 17:14:00.882561 after 2.39 seconds
+[0m17:14:00.883836 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:14:05.116935 | 250cd55b-68c0-42e5-8efe-f36f4577c66d ==============================
+[0m17:14:05.116935 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:14:05.125719 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m17:14:05.126852 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:14:06.682556 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:14:06.713764 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:14:06.881867 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:14:06.882969 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:14:07.047952 [info ] [MainThread]: Found 453 macros
+[0m17:14:07.050308 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:14:07.054043 [debug] [MainThread]: Command end result
+[0m17:14:07.137837 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 2.121982, "process_user_time": 4.398502, "process_kernel_time": 0.644174, "process_mem_max_rss": "197840", "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m17:14:07.139283 [debug] [MainThread]: Command `dbt test` succeeded at 17:14:07.139113 after 2.12 seconds
+[0m17:14:07.140503 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:11:40.659235 | 4ef40eba-b2b7-4ae0-a69c-fad646e3af56 ==============================
+[0m16:11:40.659235 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:11:40.763863 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:11:40.766925 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:11:46.494658 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:11:46.630181 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:11:47.213053 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:11:47.214995 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:11:47.657570 [info ] [MainThread]: Found 453 macros
+[0m16:11:47.661912 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:11:47.668686 [debug] [MainThread]: Command end result
+[0m16:11:47.869143 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 7.530344, "process_user_time": 12.982624, "process_kernel_time": 2.763529, "process_mem_max_rss": "200116", "process_in_blocks": "25152", "process_out_blocks": "1880"}
+[0m16:11:47.878367 [debug] [MainThread]: Command `dbt run` succeeded at 16:11:47.877419 after 7.54 seconds
+[0m16:11:47.884150 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:11:59.719958 | 33d300e5-3d7c-4054-b7ee-bf52e3a581db ==============================
+[0m16:11:59.719958 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:11:59.745423 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:11:59.749014 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:12:04.736009 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:12:04.846765 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:12:05.364954 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:12:05.366854 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:12:05.728522 [info ] [MainThread]: Found 453 macros
+[0m16:12:05.733465 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:12:05.740545 [debug] [MainThread]: Command end result
+[0m16:12:05.888094 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 6.4085402, "process_user_time": 10.665885, "process_kernel_time": 1.629371, "process_mem_max_rss": "198416", "process_in_blocks": "1240", "process_out_blocks": "0"}
+[0m16:12:05.894497 [debug] [MainThread]: Command `dbt test` succeeded at 16:12:05.894074 after 6.42 seconds
+[0m16:12:05.897264 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:53:02.245320 | 8c185bdc-4db5-411e-bdce-bfb7f438576d ==============================
+[0m17:53:02.245320 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:53:02.255139 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m17:53:02.256319 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:53:05.026902 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:53:05.072117 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:53:05.446250 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 6 files added, 0 files changed.
+[0m17:53:05.447697 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/sources.yml
+[0m17:53:05.448769 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m17:53:05.449768 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m17:53:05.450790 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m17:53:05.451981 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m17:53:05.453082 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m17:53:06.755136 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m17:53:06.760378 [info ] [MainThread]: 
+[0m17:53:06.761906 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:53:06.763553 [info ] [MainThread]: 
+[0m17:53:06.765262 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:53:06.777170 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m17:53:06.804938 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m17:53:06.806495 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m17:53:06.807879 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:53:08.028937 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.221 seconds
+[0m17:53:08.035637 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m17:53:08.665977 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now list_SAP_ANALYTICS_DB_RAW_STAGING)
+[0m17:53:08.698018 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB_RAW_STAGING"
+[0m17:53:08.699084 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB_RAW_STAGING"} */
+show terse objects in SAP_ANALYTICS_DB.RAW_STAGING limit 10000
+[0m17:53:08.699926 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:53:09.962215 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.262 seconds
+[0m17:53:09.965793 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING: Close
+[0m17:53:10.428508 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_countries
+[0m17:53:10.432288 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_customers
+[0m17:53:10.433912 [debug] [Thread-3  ]: Began running node model.dbt_sap_transformations.stg_products
+[0m17:53:10.440625 [info ] [Thread-1  ]: 1 of 5 START sql view model RAW_STAGING.stg_countries .......................... [RUN]
+[0m17:53:10.459939 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:53:10.453263 [info ] [Thread-2  ]: 2 of 5 START sql view model RAW_STAGING.stg_customers .......................... [RUN]
+[0m17:53:10.469134 [info ] [Thread-3  ]: 3 of 5 START sql view model RAW_STAGING.stg_products ........................... [RUN]
+[0m17:53:10.480899 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB_RAW_STAGING, now model.dbt_sap_transformations.stg_countries)
+[0m17:53:10.486036 [info ] [Thread-4  ]: 4 of 5 START sql view model RAW_STAGING.stg_sales_order_items .................. [RUN]
+[0m17:53:10.496749 [debug] [Thread-2  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_customers'
+[0m17:53:10.505957 [debug] [Thread-3  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_products'
+[0m17:53:10.508086 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_countries
+[0m17:53:10.509930 [debug] [Thread-4  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_sales_order_items'
+[0m17:53:10.511479 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_customers
+[0m17:53:10.513320 [debug] [Thread-3  ]: Began compiling node model.dbt_sap_transformations.stg_products
+[0m17:53:10.526280 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:53:10.550399 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_countries"
+[0m17:53:10.552543 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_customers"
+[0m17:53:10.561271 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_products"
+[0m17:53:10.577804 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:53:10.601332 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_customers
+[0m17:53:10.627126 [debug] [Thread-3  ]: Began executing node model.dbt_sap_transformations.stg_products
+[0m17:53:10.685233 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:53:10.734461 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_countries
+[0m17:53:10.748266 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_customers"
+[0m17:53:10.757302 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_countries"
+[0m17:53:10.759640 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:53:10.760804 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_products"
+[0m17:53:10.780125 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_countries"
+[0m17:53:10.782552 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_countries"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_countries
+  
+   as (
+    select
+    "LAND1" as country_code,
+    "LANDX" as country_name
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+  );
+[0m17:53:10.785214 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:53:10.792014 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_customers"
+[0m17:53:10.794454 [debug] [Thread-3  ]: Using snowflake connection "model.dbt_sap_transformations.stg_products"
+[0m17:53:10.797079 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:53:10.798520 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_customers"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_customers
+  
+   as (
+    select
+    "KUNNR" as customer_id,
+    "LAND1" as country_code,
+    "NAME1" as customer_name,
+    "ORT01" as city,
+    "PSTLZ" as postal_code
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+  );
+[0m17:53:10.803664 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_products"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_products
+  
+   as (
+    select
+    "MATNR" as product_id,
+    "MAKTX" as product_description,
+    "MTART" as product_type,
+    try_to_decimal("BRGEW", 10, 2) as gross_weight
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+  );
+[0m17:53:10.806407 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_order_items"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_sales_order_items
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_number("POSNR") as item_number,
+    "MATNR" as product_id,
+    try_to_number("KWMENG") as quantity,
+    try_to_decimal("NETWR", 12, 2) as net_value
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+  );
+[0m17:53:10.808074 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m17:53:10.809389 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:53:10.811018 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m17:53:12.247326 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.462 seconds
+[0m17:53:12.385117 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: Close
+[0m17:53:12.562805 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 1.749 seconds
+[0m17:53:12.589424 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: Close
+[0m17:53:12.630869 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 1.820 seconds
+[0m17:53:12.644654 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: Close
+[0m17:53:12.695481 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 1.887 seconds
+[0m17:53:12.700894 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: Close
+[0m17:53:12.824009 [info ] [Thread-1  ]: 1 of 5 OK created sql view model RAW_STAGING.stg_countries ..................... [[32mSUCCESS 1[0m in 2.34s]
+[0m17:53:12.826315 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_countries
+[0m17:53:12.828293 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_sales_orders
+[0m17:53:12.831650 [info ] [Thread-1  ]: 5 of 5 START sql view model RAW_STAGING.stg_sales_orders ....................... [RUN]
+[0m17:53:12.833903 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly model.dbt_sap_transformations.stg_countries, now model.dbt_sap_transformations.stg_sales_orders)
+[0m17:53:12.835386 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_sales_orders
+[0m17:53:12.847490 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:53:12.861779 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_sales_orders
+[0m17:53:12.871593 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:53:12.884945 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:53:12.887209 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_sales_orders: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_orders"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_sales_orders
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_date("ERDAT") as creation_date,
+    "AUART" as document_type,
+    "KUNNR" as customer_id
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+  );
+[0m17:53:12.889748 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:53:13.047433 [info ] [Thread-3  ]: 3 of 5 OK created sql view model RAW_STAGING.stg_products ...................... [[32mSUCCESS 1[0m in 2.54s]
+[0m17:53:13.049776 [debug] [Thread-3  ]: Finished running node model.dbt_sap_transformations.stg_products
+[0m17:53:13.056530 [info ] [Thread-4  ]: 4 of 5 OK created sql view model RAW_STAGING.stg_sales_order_items ............. [[32mSUCCESS 1[0m in 2.55s]
+[0m17:53:13.059249 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:53:13.144408 [info ] [Thread-2  ]: 2 of 5 OK created sql view model RAW_STAGING.stg_customers ..................... [[32mSUCCESS 1[0m in 2.65s]
+[0m17:53:13.146648 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_customers
+[0m17:53:13.998001 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.108 seconds
+[0m17:53:14.020142 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_sales_orders: Close
+[0m17:53:14.439724 [info ] [Thread-1  ]: 5 of 5 OK created sql view model RAW_STAGING.stg_sales_orders .................. [[32mSUCCESS 1[0m in 1.60s]
+[0m17:53:14.441489 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_sales_orders
+[0m17:53:14.446215 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:53:14.447414 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_orders' was properly closed.
+[0m17:53:14.448458 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_customers' was properly closed.
+[0m17:53:14.449473 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_products' was properly closed.
+[0m17:53:14.450520 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_order_items' was properly closed.
+[0m17:53:14.452215 [info ] [MainThread]: 
+[0m17:53:14.454251 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 7.69 seconds (7.69s).
+[0m17:53:14.459066 [debug] [MainThread]: Command end result
+[0m17:53:14.626114 [info ] [MainThread]: 
+[0m17:53:14.630625 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:53:14.642666 [info ] [MainThread]: 
+[0m17:53:14.648654 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m17:53:14.660868 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 12.568348, "process_user_time": 8.763734, "process_kernel_time": 1.762762, "process_mem_max_rss": "207936", "process_in_blocks": "680", "process_out_blocks": "8"}
+[0m17:53:14.672676 [debug] [MainThread]: Command `dbt run` succeeded at 17:53:14.671577 after 12.58 seconds
+[0m17:53:14.675947 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:53:21.587662 | e5095417-4ecb-47f1-93ed-003393ba294b ==============================
+[0m17:53:21.587662 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:53:21.605199 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m17:53:21.606682 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:53:23.450437 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:53:23.529177 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:53:24.440949 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:53:24.444148 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:53:25.239659 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m17:53:25.248089 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:53:25.255010 [debug] [MainThread]: Command end result
+[0m17:53:25.431614 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 3.964112, "process_user_time": 6.145355, "process_kernel_time": 1.089816, "process_mem_max_rss": "197840", "process_in_blocks": "184", "process_out_blocks": "0"}
+[0m17:53:25.434068 [debug] [MainThread]: Command `dbt test` succeeded at 17:53:25.433713 after 3.97 seconds
+[0m17:53:25.436037 [debug] [MainThread]: Flushing usage events
+
+
+============================== 18:22:32.706343 | 10e866d2-e9e7-4d0f-9a0f-b43d1ecce19a ==============================
+[0m18:22:32.706343 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:22:32.726556 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m18:22:32.727614 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m18:22:34.856122 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m18:22:34.896087 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:22:35.326698 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m18:22:39.797064 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m18:22:39.802397 [info ] [MainThread]: 
+[0m18:22:39.803836 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:22:39.805033 [info ] [MainThread]: 
+[0m18:22:39.806338 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:22:39.822156 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m18:22:39.870992 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m18:22:39.872154 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m18:22:39.873986 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:22:41.861937 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.988 seconds
+[0m18:22:41.865367 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m18:22:42.295896 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m18:22:42.298012 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m18:22:42.307088 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m18:22:42.308576 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m18:22:42.309796 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:22:43.789773 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf01ae-0106-6ca6-0010-1bf3000650ea
+[0m18:22:43.791039 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m18:22:43.792258 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m18:22:43.793151 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m18:22:43.794292 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m18:22:44.340938 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:22:44.342140 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m18:22:44.343239 [info ] [MainThread]: 
+[0m18:22:44.344415 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.54 seconds (4.54s).
+[0m18:22:44.345884 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m18:22:44.348756 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 11.766636, "process_user_time": 9.650722, "process_kernel_time": 1.643529, "process_mem_max_rss": "203568", "process_in_blocks": "560", "process_out_blocks": "8", "command_success": false}
+[0m18:22:44.350174 [debug] [MainThread]: Command `dbt run` failed at 18:22:44.350002 after 11.77 seconds
+[0m18:22:44.351259 [debug] [MainThread]: Flushing usage events
+
+
+============================== 18:27:50.505972 | 81a7d408-44a6-419b-b7e0-e67e0ba8070f ==============================
+[0m18:27:50.505972 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:27:50.528732 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m18:27:50.530556 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m18:27:52.544177 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m18:27:52.620667 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:27:52.965541 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m18:27:57.122085 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m18:27:57.126292 [info ] [MainThread]: 
+[0m18:27:57.128021 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:27:57.129374 [info ] [MainThread]: 
+[0m18:27:57.130950 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:27:57.142971 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m18:27:57.189170 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m18:27:57.195328 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m18:27:57.196530 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:27:58.879639 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.683 seconds
+[0m18:27:58.885772 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m18:27:59.432638 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now list_SAP_ANALYTICS_DB_RAW_STAGING)
+[0m18:27:59.459222 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB_RAW_STAGING"
+[0m18:27:59.460518 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB_RAW_STAGING"} */
+show terse objects in SAP_ANALYTICS_DB.RAW_STAGING limit 10000
+[0m18:27:59.461722 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:28:00.765130 [debug] [ThreadPool]: SQL status: SUCCESS 5 in 1.303 seconds
+[0m18:28:00.768447 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING: Close
+[0m18:28:01.305319 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_countries
+[0m18:28:01.306674 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_customers
+[0m18:28:01.307671 [debug] [Thread-3  ]: Began running node model.dbt_sap_transformations.stg_products
+[0m18:28:01.309525 [info ] [Thread-1  ]: 1 of 5 START sql view model RAW_STAGING.stg_countries .......................... [RUN]
+[0m18:28:01.311662 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_order_items
+[0m18:28:01.312904 [info ] [Thread-2  ]: 2 of 5 START sql view model RAW_STAGING.stg_customers .......................... [RUN]
+[0m18:28:01.314765 [info ] [Thread-3  ]: 3 of 5 START sql view model RAW_STAGING.stg_products ........................... [RUN]
+[0m18:28:01.316680 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB_RAW_STAGING, now model.dbt_sap_transformations.stg_countries)
+[0m18:28:01.318834 [info ] [Thread-4  ]: 4 of 5 START sql view model RAW_STAGING.stg_sales_order_items .................. [RUN]
+[0m18:28:01.321557 [debug] [Thread-2  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_customers'
+[0m18:28:01.324957 [debug] [Thread-3  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_products'
+[0m18:28:01.326426 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_countries
+[0m18:28:01.327965 [debug] [Thread-4  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_sales_order_items'
+[0m18:28:01.329388 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_customers
+[0m18:28:01.330698 [debug] [Thread-3  ]: Began compiling node model.dbt_sap_transformations.stg_products
+[0m18:28:01.343290 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_order_items
+[0m18:28:01.356604 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_countries"
+[0m18:28:01.366781 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_customers"
+[0m18:28:01.376984 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_products"
+[0m18:28:01.384140 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m18:28:01.411083 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_customers
+[0m18:28:01.431946 [debug] [Thread-3  ]: Began executing node model.dbt_sap_transformations.stg_products
+[0m18:28:01.439550 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_countries
+[0m18:28:01.457326 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_order_items
+[0m18:28:01.631786 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m18:28:01.646923 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_customers"
+[0m18:28:01.676398 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_products"
+[0m18:28:01.683117 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_countries"
+[0m18:28:01.694636 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_order_items"
+[0m18:28:01.697573 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_order_items"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_sales_order_items
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_number("POSNR") as item_number,
+    "MATNR" as product_id,
+    try_to_number("KWMENG") as quantity,
+    try_to_decimal("NETWR", 12, 2) as net_value
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+  );
+[0m18:28:01.701165 [debug] [Thread-3  ]: Using snowflake connection "model.dbt_sap_transformations.stg_products"
+[0m18:28:01.702583 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m18:28:01.706132 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_customers"
+[0m18:28:01.709012 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_countries"
+[0m18:28:01.710708 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_products"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_products
+  
+   as (
+    select
+    "MATNR" as product_id,
+    "MAKTX" as product_description,
+    "MTART" as product_type,
+    try_to_decimal("BRGEW", 10, 2) as gross_weight
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+  );
+[0m18:28:01.716990 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_customers"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_customers
+  
+   as (
+    select
+    "KUNNR" as customer_id,
+    "LAND1" as country_code,
+    "NAME1" as customer_name,
+    "ORT01" as city,
+    "PSTLZ" as postal_code
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+  );
+[0m18:28:01.719140 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_countries"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_countries
+  
+   as (
+    select
+    "LAND1" as country_code,
+    "LANDX" as country_name
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+  );
+[0m18:28:01.721879 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m18:28:01.724422 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m18:28:01.727042 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m18:28:03.192866 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 1.490 seconds
+[0m18:28:03.268412 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: Close
+[0m18:28:03.432247 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 1.708 seconds
+[0m18:28:03.437759 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: Close
+[0m18:28:03.483434 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.756 seconds
+[0m18:28:03.493039 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: Close
+[0m18:28:03.775646 [info ] [Thread-4  ]: 4 of 5 OK created sql view model RAW_STAGING.stg_sales_order_items ............. [[32mSUCCESS 1[0m in 2.43s]
+[0m18:28:03.780188 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_order_items
+[0m18:28:03.784267 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_orders
+[0m18:28:03.791054 [info ] [Thread-4  ]: 5 of 5 START sql view model RAW_STAGING.stg_sales_orders ....................... [RUN]
+[0m18:28:03.799174 [debug] [Thread-4  ]: Re-using an available connection from the pool (formerly model.dbt_sap_transformations.stg_sales_order_items, now model.dbt_sap_transformations.stg_sales_orders)
+[0m18:28:03.805599 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_orders
+[0m18:28:03.824542 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m18:28:03.832316 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 2.110 seconds
+[0m18:28:03.847508 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: Close
+[0m18:28:03.868054 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_orders
+[0m18:28:03.889759 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m18:28:03.919045 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_orders"
+[0m18:28:03.925545 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_orders: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_orders"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING.stg_sales_orders
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_date("ERDAT") as creation_date,
+    "AUART" as document_type,
+    "KUNNR" as customer_id
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+  );
+[0m18:28:03.947778 [debug] [Thread-4  ]: Opening a new connection, currently in state closed
+[0m18:28:03.946110 [info ] [Thread-1  ]: 1 of 5 OK created sql view model RAW_STAGING.stg_countries ..................... [[32mSUCCESS 1[0m in 2.62s]
+[0m18:28:03.957739 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_countries
+[0m18:28:03.971642 [info ] [Thread-2  ]: 2 of 5 OK created sql view model RAW_STAGING.stg_customers ..................... [[32mSUCCESS 1[0m in 2.65s]
+[0m18:28:03.977374 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_customers
+[0m18:28:04.344531 [info ] [Thread-3  ]: 3 of 5 OK created sql view model RAW_STAGING.stg_products ...................... [[32mSUCCESS 1[0m in 3.02s]
+[0m18:28:04.346902 [debug] [Thread-3  ]: Finished running node model.dbt_sap_transformations.stg_products
+[0m18:28:05.249362 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 1.302 seconds
+[0m18:28:05.258879 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_orders: Close
+[0m18:28:05.712990 [info ] [Thread-4  ]: 5 of 5 OK created sql view model RAW_STAGING.stg_sales_orders .................. [[32mSUCCESS 1[0m in 1.92s]
+[0m18:28:05.715087 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_orders
+[0m18:28:05.719222 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:28:05.721072 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_countries' was properly closed.
+[0m18:28:05.723577 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_customers' was properly closed.
+[0m18:28:05.725959 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_products' was properly closed.
+[0m18:28:05.730047 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_orders' was properly closed.
+[0m18:28:05.731713 [info ] [MainThread]: 
+[0m18:28:05.733572 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 8.60 seconds (8.60s).
+[0m18:28:05.739055 [debug] [MainThread]: Command end result
+[0m18:28:05.866459 [info ] [MainThread]: 
+[0m18:28:05.873519 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m18:28:05.876703 [info ] [MainThread]: 
+[0m18:28:05.878664 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m18:28:05.880907 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 15.546384, "process_user_time": 11.458358, "process_kernel_time": 1.443652, "process_mem_max_rss": "208188", "process_in_blocks": "120", "process_out_blocks": "8"}
+[0m18:28:05.882448 [debug] [MainThread]: Command `dbt run` succeeded at 18:28:05.882218 after 15.55 seconds
+[0m18:28:05.883475 [debug] [MainThread]: Flushing usage events
+
+
+============================== 18:28:16.056622 | dc598710-87bf-42f7-af46-b289d34cf482 ==============================
+[0m18:28:16.056622 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:28:16.068150 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'introspect': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m18:28:16.073574 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m18:28:18.807157 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m18:28:18.888835 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:28:19.451958 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m18:28:19.453446 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m18:28:20.107763 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m18:28:20.120112 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m18:28:20.124783 [debug] [MainThread]: Command end result
+[0m18:28:20.259654 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 4.357212, "process_user_time": 7.232935, "process_kernel_time": 1.250137, "process_mem_max_rss": "200368", "process_in_blocks": "8", "process_out_blocks": "0"}
+[0m18:28:20.262034 [debug] [MainThread]: Command `dbt test` succeeded at 18:28:20.261638 after 4.36 seconds
+[0m18:28:20.263544 [debug] [MainThread]: Flushing usage events
+
+
+============================== 18:57:22.457366 | 07b44978-f35b-421f-8a3e-93dee4551a30 ==============================
+[0m18:57:22.457366 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m18:57:22.477307 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m18:57:22.478515 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m18:57:24.225719 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m18:57:24.258714 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m18:57:24.452100 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m18:57:28.383656 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m18:57:28.387159 [info ] [MainThread]: 
+[0m18:57:28.388401 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m18:57:28.389377 [info ] [MainThread]: 
+[0m18:57:28.390723 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m18:57:28.403063 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m18:57:28.438169 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m18:57:28.439786 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m18:57:28.441299 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m18:57:29.988139 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.547 seconds
+[0m18:57:29.992038 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m18:57:30.451468 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m18:57:30.466528 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m18:57:30.483342 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m18:57:30.484874 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m18:57:30.486187 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m18:57:31.770714 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf01d1-0106-6a5b-0010-1bf300067156
+[0m18:57:31.772675 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m18:57:31.775065 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m18:57:31.776566 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m18:57:31.778552 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m18:57:32.219540 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m18:57:32.222021 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m18:57:32.224556 [info ] [MainThread]: 
+[0m18:57:32.227294 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 3.83 seconds (3.83s).
+[0m18:57:32.233160 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m18:57:32.252521 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 9.902067, "process_user_time": 8.240925, "process_kernel_time": 1.325324, "process_mem_max_rss": "201900", "process_in_blocks": "8", "process_out_blocks": "8", "command_success": false}
+[0m18:57:32.257991 [debug] [MainThread]: Command `dbt run` failed at 18:57:32.257023 after 9.91 seconds
+[0m18:57:32.264233 [debug] [MainThread]: Flushing usage events
+
+
+============================== 19:05:43.549371 | fc6b421f-b276-4324-8d1d-f418d71fc702 ==============================
+[0m19:05:43.549371 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m19:05:43.561618 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m19:05:43.562780 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m19:05:45.076638 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m19:05:45.136050 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m19:05:45.491296 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m19:05:45.492420 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m19:05:45.826790 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m19:05:45.830476 [info ] [MainThread]: 
+[0m19:05:45.833098 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m19:05:45.834994 [info ] [MainThread]: 
+[0m19:05:45.836630 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m19:05:45.846804 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m19:05:45.884650 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m19:05:45.885860 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m19:05:45.886861 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m19:05:47.352450 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.466 seconds
+[0m19:05:47.356660 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m19:05:47.835074 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m19:05:47.837597 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m19:05:47.857225 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m19:05:47.863346 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m19:05:47.866163 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m19:05:49.136611 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf01d9-0106-6b93-0010-1bf30005f1ba
+[0m19:05:49.138026 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m19:05:49.139497 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m19:05:49.140739 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m19:05:49.142442 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m19:05:49.604800 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m19:05:49.606016 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m19:05:49.606971 [info ] [MainThread]: 
+[0m19:05:49.608018 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 3.77 seconds (3.77s).
+[0m19:05:49.609342 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m19:05:49.612063 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 6.172823, "process_user_time": 4.587461, "process_kernel_time": 0.943591, "process_mem_max_rss": "196496", "process_in_blocks": "32", "process_out_blocks": "8", "command_success": false}
+[0m19:05:49.613730 [debug] [MainThread]: Command `dbt run` failed at 19:05:49.613510 after 6.18 seconds
+[0m19:05:49.614745 [debug] [MainThread]: Flushing usage events
+
+
+============================== 19:38:02.044464 | a6186fbb-1d9a-4728-98e3-8975d830e9bf ==============================
+[0m19:38:02.044464 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m19:38:02.056243 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'log_format': 'default', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m19:38:02.057511 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m19:38:04.158404 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m19:38:04.217231 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m19:38:04.730543 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 5 files changed.
+[0m19:38:04.732452 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m19:38:04.733725 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m19:38:04.734886 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m19:38:04.736107 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m19:38:04.737373 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m19:38:05.255409 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_sales_order_items' (models/staging/stg_sales_order_items.sql) depends on a source named 'ANALYTICS.RAW_VBAP' which was not found
+[0m19:38:05.258768 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 3.3222256, "process_user_time": 5.141056, "process_kernel_time": 1.431938, "process_mem_max_rss": "193996", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m19:38:05.265971 [debug] [MainThread]: Command `dbt run` failed at 19:38:05.265595 after 3.33 seconds
+[0m19:38:05.267200 [debug] [MainThread]: Flushing usage events
+
+
+============================== 20:02:51.619055 | 4be828dd-f71f-40b5-9be8-f2ad93a9496b ==============================
+[0m20:02:51.619055 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m20:02:51.650181 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m20:02:51.651318 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m20:02:53.253418 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m20:02:53.291728 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m20:02:53.722386 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m20:02:53.724982 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m20:02:53.726772 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m20:02:53.729124 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m20:02:53.730789 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m20:02:53.732707 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m20:02:53.733952 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m20:02:54.366225 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_customers' (models/staging/stg_customers.sql) depends on a source named 'ANALYTICS.RAW_KNA1' which was not found
+[0m20:02:54.370048 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 2.8539166, "process_user_time": 4.991075, "process_kernel_time": 1.436063, "process_mem_max_rss": "197656", "process_in_blocks": "392", "process_out_blocks": "1880", "command_success": false}
+[0m20:02:54.371523 [debug] [MainThread]: Command `dbt run` failed at 20:02:54.371328 after 2.86 seconds
+[0m20:02:54.372644 [debug] [MainThread]: Flushing usage events
+
+
+============================== 14:57:39.281432 | 555f521b-46ee-45b5-ba3a-efbeccb2e23f ==============================
+[0m14:57:39.281432 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m14:57:39.372505 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m14:57:39.376033 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m14:57:43.418987 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m14:57:43.477458 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m14:57:44.495863 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m14:57:44.501366 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m14:57:44.503602 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m14:57:44.506051 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m14:57:44.507747 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m14:57:44.509263 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m14:57:44.510819 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m14:57:45.573638 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_customers' (models/staging/stg_customers.sql) depends on a source named 'ANALYTICS.RAW_KNA1' which was not found
+[0m14:57:45.580266 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 6.633299, "process_user_time": 11.783131, "process_kernel_time": 2.878092, "process_mem_max_rss": "196048", "process_in_blocks": "23744", "process_out_blocks": "1880", "command_success": false}
+[0m14:57:45.583079 [debug] [MainThread]: Command `dbt run` failed at 14:57:45.582721 after 6.64 seconds
+[0m14:57:45.584819 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:06:32.225066 | 9709ebfd-74a7-4024-9a26-e0b5802fe4f1 ==============================
+[0m15:06:32.225066 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:06:32.254739 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m15:06:32.257774 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:06:36.217849 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:06:36.294179 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:06:37.604687 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m15:06:37.608061 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m15:06:37.609720 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:06:37.612136 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:06:37.613717 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:06:37.615440 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:06:37.617072 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:06:39.230020 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_customers' (models/staging/stg_customers.sql) depends on a source named 'RAW_STAGING.RAW_KNA1' which was not found
+[0m15:06:39.234764 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 7.4158206, "process_user_time": 12.204773, "process_kernel_time": 1.412867, "process_mem_max_rss": "200344", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:06:39.237908 [debug] [MainThread]: Command `dbt run` failed at 15:06:39.237468 after 7.42 seconds
+[0m15:06:39.240461 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:15:20.965880 | b4b5ed15-a29c-4452-9a3b-df3a759724d3 ==============================
+[0m15:15:20.965880 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:15:20.980954 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m15:15:20.982901 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:15:24.155428 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:15:24.224006 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:15:25.107151 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 5 files changed.
+[0m15:15:25.109377 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/sources.yml
+[0m15:15:25.112065 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:15:25.113911 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:15:25.115824 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:15:25.117426 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:15:25.119441 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:15:26.458527 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_customers' (models/staging/stg_customers.sql) depends on a source named 'RAW_STAGING.RAW_KNA1' which was not found
+[0m15:15:26.463684 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 5.870981, "process_user_time": 10.106715, "process_kernel_time": 1.43095, "process_mem_max_rss": "198180", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:15:26.466109 [debug] [MainThread]: Command `dbt run` failed at 15:15:26.465839 after 5.87 seconds
+[0m15:15:26.467873 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:24:34.994423 | f680a855-e9fe-42b8-a9c3-beba4e2094ac ==============================
+[0m15:24:34.994423 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:24:35.007321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m15:24:35.009007 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:24:39.172561 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:24:39.287885 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:24:40.897972 [debug] [MainThread]: Partial parsing enabled: 1 files deleted, 1 files added, 5 files changed.
+[0m15:24:40.903652 [debug] [MainThread]: Partial parsing: added file: dbt_sap_transformations://models/sources.yml
+[0m15:24:40.915244 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:24:40.921245 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:24:40.926079 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:24:40.932313 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:24:40.937950 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:24:44.201070 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_customers' (models/staging/stg_customers.sql) depends on a source named 'RAW_STAGING.RAW_KNA1' which was not found
+[0m15:24:44.209718 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 9.578565, "process_user_time": 12.995904, "process_kernel_time": 1.463906, "process_mem_max_rss": "200364", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:24:44.215284 [debug] [MainThread]: Command `dbt run` failed at 15:24:44.214484 after 9.59 seconds
+[0m15:24:44.219269 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:30:59.895504 | 968d6119-a71c-4c5d-b7ba-5814e870e74f ==============================
+[0m15:30:59.895504 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:30:59.920166 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m15:30:59.922034 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:31:02.499597 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:31:02.554657 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:31:03.572546 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 5 files changed.
+[0m15:31:03.576437 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:31:03.579612 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:31:03.583005 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:31:03.586364 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:31:03.589596 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:31:04.255592 [error] [MainThread]: Encountered an error:
+Compilation Error
+  Model 'model.dbt_sap_transformations.stg_products' (models/staging/stg_products.sql) depends on a source named 'RAW_STAGING.RAW_MARA' which was not found
+[0m15:31:04.260470 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 4.5271406, "process_user_time": 7.838679, "process_kernel_time": 1.082579, "process_mem_max_rss": "196356", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m15:31:04.263864 [debug] [MainThread]: Command `dbt run` failed at 15:31:04.263405 after 4.53 seconds
+[0m15:31:04.266614 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:35:07.715702 | 47995b0f-d957-4614-8b12-c438af284633 ==============================
+[0m15:35:07.715702 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:35:07.743403 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m15:35:07.746145 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:35:14.825741 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:35:15.061937 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:35:17.649404 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m15:35:17.660510 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m15:35:17.668842 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:35:17.673442 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:35:17.679082 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:35:17.687361 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:35:17.696451 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:35:22.614308 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m15:35:22.626193 [info ] [MainThread]: 
+[0m15:35:22.629320 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m15:35:22.633684 [info ] [MainThread]: 
+[0m15:35:22.638881 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:35:22.686972 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m15:35:22.835113 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m15:35:22.844534 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m15:35:22.848252 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:35:24.447163 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.599 seconds
+[0m15:35:24.462358 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m15:35:24.993953 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m15:35:25.000399 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m15:35:25.049585 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m15:35:25.055835 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m15:35:25.059870 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:35:26.621060 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf2e07-0106-77e2-0010-1bf3000840da
+[0m15:35:26.625568 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m15:35:26.630462 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m15:35:26.635577 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:35:26.639413 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m15:35:27.234993 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:35:27.240278 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m15:35:27.244233 [info ] [MainThread]: 
+[0m15:35:27.248605 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.61 seconds (4.61s).
+[0m15:35:27.256251 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m15:35:27.263889 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 19.872173, "process_user_time": 21.09648, "process_kernel_time": 1.674482, "process_mem_max_rss": "201216", "process_in_blocks": "912", "process_out_blocks": "8", "command_success": false}
+[0m15:35:27.269803 [debug] [MainThread]: Command `dbt run` failed at 15:35:27.268638 after 19.88 seconds
+[0m15:35:27.275141 [debug] [MainThread]: Flushing usage events
+
+
+============================== 15:40:34.130887 | a93ff481-ab37-4a19-abbb-bc75b7dbeff0 ==============================
+[0m15:40:34.130887 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m15:40:34.175897 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m15:40:34.179779 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m15:40:38.034770 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m15:40:38.115113 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m15:40:39.084930 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m15:40:39.089987 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m15:40:39.092855 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m15:40:39.098022 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m15:40:39.101282 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m15:40:39.104218 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m15:40:39.107237 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m15:40:42.363530 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m15:40:42.374386 [info ] [MainThread]: 
+[0m15:40:42.377006 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m15:40:42.379862 [info ] [MainThread]: 
+[0m15:40:42.383733 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m15:40:42.422856 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m15:40:42.568276 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m15:40:42.572458 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m15:40:42.578460 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m15:40:44.364460 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.786 seconds
+[0m15:40:44.375320 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m15:40:44.983338 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m15:40:44.987958 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m15:40:45.024724 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m15:40:45.027842 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m15:40:45.030736 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m15:40:46.622426 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf2e0c-0106-7e70-0010-1bf30008b0ce
+[0m15:40:46.624573 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m15:40:46.636341 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m15:40:46.639684 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m15:40:46.642845 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m15:40:47.233526 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m15:40:47.236074 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m15:40:47.238597 [info ] [MainThread]: 
+[0m15:40:47.241159 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.86 seconds (4.86s).
+[0m15:40:47.245148 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m15:40:47.250614 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 13.437878, "process_user_time": 15.978283, "process_kernel_time": 1.419847, "process_mem_max_rss": "201052", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m15:40:47.253726 [debug] [MainThread]: Command `dbt run` failed at 15:40:47.253165 after 13.44 seconds
+[0m15:40:47.255997 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:00:29.000388 | 7d1b135e-ae7a-4701-bc52-414e87883bbd ==============================
+[0m16:00:29.000388 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:00:29.017622 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'debug': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:00:29.019892 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:00:32.401229 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:00:32.462312 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:00:33.324162 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 6 files changed.
+[0m16:00:33.328535 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/sources.yml
+[0m16:00:33.330938 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_customers.sql
+[0m16:00:33.333074 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_products.sql
+[0m16:00:33.335852 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_order_items.sql
+[0m16:00:33.338108 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_countries.sql
+[0m16:00:33.340288 [debug] [MainThread]: Partial parsing: updated file: dbt_sap_transformations://models/staging/stg_sales_orders.sql
+[0m16:00:36.241878 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:00:36.246537 [info ] [MainThread]: 
+[0m16:00:36.248143 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:00:36.249872 [info ] [MainThread]: 
+[0m16:00:36.252807 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:00:36.276823 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m16:00:36.325702 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m16:00:36.327600 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m16:00:36.329369 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:00:37.955053 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.625 seconds
+[0m16:00:37.973672 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m16:00:38.598972 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m16:00:38.603928 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m16:00:38.635837 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m16:00:38.638664 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m16:00:38.641361 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:00:40.235104 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf2e20-0106-7689-0010-1bf30007617a
+[0m16:00:40.243128 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:00:40.252246 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m16:00:40.259544 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m16:00:40.266890 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m16:00:40.894674 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:00:40.897340 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m16:00:40.901850 [info ] [MainThread]: 
+[0m16:00:40.904005 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.65 seconds (4.65s).
+[0m16:00:40.905876 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:00:40.909473 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 12.130944, "process_user_time": 13.509359, "process_kernel_time": 2.271663, "process_mem_max_rss": "201088", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m16:00:40.911465 [debug] [MainThread]: Command `dbt run` failed at 16:00:40.911222 after 12.13 seconds
+[0m16:00:40.913034 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:04:50.795724 | eeed861a-17cb-4cba-9cc3-fcf4e6c5b364 ==============================
+[0m16:04:50.795724 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:04:50.835632 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'False'}
+[0m16:04:50.839768 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:04:54.653936 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:04:54.729816 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:04:55.516009 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:04:55.518447 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:04:56.144672 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:04:56.150321 [info ] [MainThread]: 
+[0m16:04:56.154222 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:04:56.156744 [info ] [MainThread]: 
+[0m16:04:56.159665 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:04:56.176197 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m16:04:56.246264 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m16:04:56.248272 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m16:04:56.249927 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:04:57.926150 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.679 seconds
+[0m16:04:57.940359 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m16:04:58.508667 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m16:04:58.513942 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m16:04:58.553735 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m16:04:58.559457 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m16:04:58.562919 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:05:00.415776 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf2e25-0106-7b2a-0010-1bf30008911e
+[0m16:05:00.421157 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:05:00.426599 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m16:05:00.432460 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m16:05:00.438763 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m16:05:01.052321 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:05:01.058758 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m16:05:01.063364 [info ] [MainThread]: 
+[0m16:05:01.067936 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.90 seconds (4.90s).
+[0m16:05:01.073966 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:05:01.083694 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 10.778213, "process_user_time": 12.730487, "process_kernel_time": 1.184462, "process_mem_max_rss": "198048", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m16:05:01.092156 [debug] [MainThread]: Command `dbt run` failed at 16:05:01.091144 after 10.79 seconds
+[0m16:05:01.097187 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:08:21.805824 | 54f76f3c-78bf-4a73-8281-580f106db501 ==============================
+[0m16:08:21.805824 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:08:21.824615 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'send_anonymous_usage_stats': 'False'}
+[0m16:08:21.828028 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:08:25.089400 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:08:25.142406 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:08:26.164654 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:08:26.167242 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:08:26.993035 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:08:26.999952 [info ] [MainThread]: 
+[0m16:08:27.002653 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:08:27.005093 [info ] [MainThread]: 
+[0m16:08:27.007552 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:08:27.032368 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m16:08:27.098166 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m16:08:27.099735 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m16:08:27.101400 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:08:28.718877 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.617 seconds
+[0m16:08:28.731687 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m16:08:29.266924 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m16:08:29.270601 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m16:08:29.294069 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m16:08:29.295744 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m16:08:29.297318 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:08:30.982635 [debug] [ThreadPool]: Snowflake adapter: Snowflake query id: 01bf2e28-0106-7d0c-0010-1bf30008513a
+[0m16:08:30.986614 [debug] [ThreadPool]: Snowflake adapter: Snowflake error: 003001 (42501): SQL access control error:
+Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:08:30.991891 [debug] [ThreadPool]: Snowflake adapter: Error running SQL: macro create_schema
+[0m16:08:30.995339 [debug] [ThreadPool]: Snowflake adapter: Rolling back transaction.
+[0m16:08:30.998627 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m16:08:31.571653 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:08:31.576358 [debug] [MainThread]: Connection 'create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS' was properly closed.
+[0m16:08:31.582271 [info ] [MainThread]: 
+[0m16:08:31.586569 [info ] [MainThread]: Finished running  in 0 hours 0 minutes and 4.57 seconds (4.57s).
+[0m16:08:31.593864 [error] [MainThread]: Encountered an error:
+Database Error
+  003001 (42501): SQL access control error:
+  Insufficient privileges to operate on database 'SAP_ANALYTICS_DB'.
+[0m16:08:31.603917 [debug] [MainThread]: Resource report: {"command_name": "run", "command_wall_clock_time": 10.235926, "process_user_time": 11.492578, "process_kernel_time": 1.331887, "process_mem_max_rss": "200288", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m16:08:31.610391 [debug] [MainThread]: Command `dbt run` failed at 16:08:31.609210 after 10.24 seconds
+[0m16:08:31.614815 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:19:54.722832 | 804cf6a6-b0dc-4f21-8b7d-ec78af6c7571 ==============================
+[0m16:19:54.722832 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:19:54.766084 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'False', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:19:54.769194 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:19:59.394266 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:19:59.491699 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:20:01.058076 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:20:01.063001 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:20:02.174212 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:20:02.188344 [info ] [MainThread]: 
+[0m16:20:02.192148 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:20:02.194921 [info ] [MainThread]: 
+[0m16:20:02.198557 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:20:02.230259 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m16:20:02.315480 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m16:20:02.317826 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m16:20:02.320188 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:20:04.139012 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.818 seconds
+[0m16:20:04.158663 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m16:20:04.781649 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m16:20:04.788881 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "RAW_STAGING_ANALYTICS"
+"
+[0m16:20:04.845510 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m16:20:04.850418 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS
+[0m16:20:04.854949 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:20:07.151065 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 2.296 seconds
+[0m16:20:07.163693 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m16:20:07.692378 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS, now list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS)
+[0m16:20:07.728803 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"
+[0m16:20:07.731208 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS"} */
+show terse objects in SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS limit 10000
+[0m16:20:07.732693 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:20:09.596321 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.863 seconds
+[0m16:20:09.609918 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS: Close
+[0m16:20:10.228901 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_countries
+[0m16:20:10.233286 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_customers
+[0m16:20:10.237483 [debug] [Thread-3  ]: Began running node model.dbt_sap_transformations.stg_products
+[0m16:20:10.241492 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:20:10.245972 [info ] [Thread-1  ]: 1 of 5 START sql view model RAW_STAGING_ANALYTICS.stg_countries ................ [RUN]
+[0m16:20:10.251660 [info ] [Thread-2  ]: 2 of 5 START sql view model RAW_STAGING_ANALYTICS.stg_customers ................ [RUN]
+[0m16:20:10.257485 [info ] [Thread-3  ]: 3 of 5 START sql view model RAW_STAGING_ANALYTICS.stg_products ................. [RUN]
+[0m16:20:10.264093 [info ] [Thread-4  ]: 4 of 5 START sql view model RAW_STAGING_ANALYTICS.stg_sales_order_items ........ [RUN]
+[0m16:20:10.271138 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB_RAW_STAGING_ANALYTICS, now model.dbt_sap_transformations.stg_countries)
+[0m16:20:10.277097 [debug] [Thread-2  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_customers'
+[0m16:20:10.282827 [debug] [Thread-3  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_products'
+[0m16:20:10.288523 [debug] [Thread-4  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_sales_order_items'
+[0m16:20:10.294070 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_countries
+[0m16:20:10.299826 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_customers
+[0m16:20:10.304252 [debug] [Thread-3  ]: Began compiling node model.dbt_sap_transformations.stg_products
+[0m16:20:10.308942 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:20:10.436597 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_countries"
+[0m16:20:10.446791 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:20:10.460998 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_customers"
+[0m16:20:10.478166 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_products"
+[0m16:20:10.507665 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_countries
+[0m16:20:10.522527 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_customers
+[0m16:20:10.552564 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:20:10.536866 [debug] [Thread-3  ]: Began executing node model.dbt_sap_transformations.stg_products
+[0m16:20:11.263265 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_products"
+[0m16:20:11.340473 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_countries"
+[0m16:20:11.392825 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:20:11.443737 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_customers"
+[0m16:20:11.453841 [debug] [Thread-3  ]: Using snowflake connection "model.dbt_sap_transformations.stg_products"
+[0m16:20:11.463899 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_products"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS.stg_products
+  
+   as (
+    select
+    "MATNR" as product_id,
+    "MAKTX" as product_description,
+    "MTART" as product_type,
+    try_to_decimal("BRGEW", 10, 2) as gross_weight
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+  );
+[0m16:20:11.485485 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m16:20:11.491514 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_countries"
+[0m16:20:11.500858 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:20:11.507767 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_customers"
+[0m16:20:11.509972 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_countries"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS.stg_countries
+  
+   as (
+    select
+    "LAND1" as country_code,
+    "LANDX" as country_name
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+  );
+[0m16:20:11.514575 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_order_items"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS.stg_sales_order_items
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_number("POSNR") as item_number,
+    "MATNR" as product_id,
+    try_to_number("KWMENG") as quantity,
+    try_to_decimal("NETWR", 12, 2) as net_value
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+  );
+[0m16:20:11.518810 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_customers"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS.stg_customers
+  
+   as (
+    select
+    "KUNNR" as customer_id,
+    "LAND1" as country_code,
+    "NAME1" as customer_name,
+    "ORT01" as city,
+    "PSTLZ" as postal_code
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+  );
+[0m16:20:11.522337 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:20:11.524842 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m16:20:11.527142 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m16:20:13.441615 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.919 seconds
+[0m16:20:13.480612 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 1.955 seconds
+[0m16:20:13.789350 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: Close
+[0m16:20:13.792892 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: Close
+[0m16:20:13.840582 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 2.312 seconds
+[0m16:20:13.862180 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: Close
+[0m16:20:13.906510 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 2.421 seconds
+[0m16:20:13.926787 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: Close
+[0m16:20:14.441509 [info ] [Thread-2  ]: 2 of 5 OK created sql view model RAW_STAGING_ANALYTICS.stg_customers ........... [[32mSUCCESS 1[0m in 4.13s]
+[0m16:20:14.483285 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_customers
+[0m16:20:14.495205 [info ] [Thread-4  ]: 4 of 5 OK created sql view model RAW_STAGING_ANALYTICS.stg_sales_order_items ... [[32mSUCCESS 1[0m in 4.13s]
+[0m16:20:14.560994 [info ] [Thread-3  ]: 3 of 5 OK created sql view model RAW_STAGING_ANALYTICS.stg_products ............ [[32mSUCCESS 1[0m in 4.25s]
+[0m16:20:14.574288 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:20:14.531503 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_sales_orders
+[0m16:20:14.583210 [debug] [Thread-3  ]: Finished running node model.dbt_sap_transformations.stg_products
+[0m16:20:14.557855 [info ] [Thread-1  ]: 1 of 5 OK created sql view model RAW_STAGING_ANALYTICS.stg_countries ........... [[32mSUCCESS 1[0m in 4.27s]
+[0m16:20:14.591781 [info ] [Thread-2  ]: 5 of 5 START sql view model RAW_STAGING_ANALYTICS.stg_sales_orders ............. [RUN]
+[0m16:20:14.596647 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_countries
+[0m16:20:14.599639 [debug] [Thread-2  ]: Re-using an available connection from the pool (formerly model.dbt_sap_transformations.stg_customers, now model.dbt_sap_transformations.stg_sales_orders)
+[0m16:20:14.605480 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_sales_orders
+[0m16:20:14.622870 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:20:14.642784 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_sales_orders
+[0m16:20:14.659030 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:20:14.677733 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:20:14.680035 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_orders"} */
+create or replace   view SAP_ANALYTICS_DB.RAW_STAGING_ANALYTICS.stg_sales_orders
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_date("ERDAT") as creation_date,
+    "AUART" as document_type,
+    "KUNNR" as customer_id
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+  );
+[0m16:20:14.682354 [debug] [Thread-2  ]: Opening a new connection, currently in state closed
+[0m16:20:16.254819 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 1.572 seconds
+[0m16:20:16.265608 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: Close
+[0m16:20:16.906580 [info ] [Thread-2  ]: 5 of 5 OK created sql view model RAW_STAGING_ANALYTICS.stg_sales_orders ........ [[32mSUCCESS 1[0m in 2.30s]
+[0m16:20:16.912283 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_sales_orders
+[0m16:20:16.924321 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:20:16.928046 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_countries' was properly closed.
+[0m16:20:16.932506 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_orders' was properly closed.
+[0m16:20:16.938956 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_products' was properly closed.
+[0m16:20:16.942527 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_order_items' was properly closed.
+[0m16:20:16.947352 [info ] [MainThread]: 
+[0m16:20:16.952141 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 14.75 seconds (14.75s).
+[0m16:20:16.967068 [debug] [MainThread]: Command end result
+[0m16:20:17.223905 [info ] [MainThread]: 
+[0m16:20:17.228098 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:20:17.230030 [info ] [MainThread]: 
+[0m16:20:17.232159 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m16:20:17.236361 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 22.892818, "process_user_time": 18.087488, "process_kernel_time": 2.362284, "process_mem_max_rss": "201636", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m16:20:17.238506 [debug] [MainThread]: Command `dbt run` succeeded at 16:20:17.238237 after 22.90 seconds
+[0m16:20:17.240275 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:20:31.914975 | 5d7fce05-fd4c-4ec2-acde-73bd8b4d57e9 ==============================
+[0m16:20:31.914975 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:20:31.936269 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/opt/airflow/dbt', 'version_check': 'True', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:20:31.939164 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:20:37.846934 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:20:37.976197 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:20:39.075145 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:20:39.077744 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:20:39.975236 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:20:39.982401 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:20:39.994861 [debug] [MainThread]: Command end result
+[0m16:20:40.226687 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 8.703899, "process_user_time": 16.400877, "process_kernel_time": 1.725352, "process_mem_max_rss": "198340", "process_in_blocks": "600", "process_out_blocks": "0"}
+[0m16:20:40.231461 [debug] [MainThread]: Command `dbt test` succeeded at 16:20:40.230869 after 8.71 seconds
+[0m16:20:40.235015 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:52:26.941906 | 6079b09a-de6d-4763-a55e-aefcff58ae77 ==============================
+[0m16:52:26.941906 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:52:26.969027 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'profiles_dir': '/opt/airflow/dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:52:26.971137 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:52:31.174174 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:52:31.326951 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:52:31.701564 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m16:52:31.703438 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m16:52:42.051815 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:52:42.059999 [info ] [MainThread]: 
+[0m16:52:42.062802 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m16:52:42.065107 [info ] [MainThread]: 
+[0m16:52:42.069441 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m16:52:42.094586 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m16:52:42.184359 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m16:52:42.187856 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m16:52:42.191359 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m16:52:44.491224 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 2.300 seconds
+[0m16:52:44.503534 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m16:52:45.037135 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS)
+[0m16:52:45.041030 [debug] [ThreadPool]: Creating schema "database: "SAP_ANALYTICS_DB"
+schema: "dbt_amine_ANALYTICS"
+"
+[0m16:52:45.061158 [debug] [ThreadPool]: Using snowflake connection "create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS"
+[0m16:52:45.063316 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS"} */
+create schema if not exists SAP_ANALYTICS_DB.dbt_amine_ANALYTICS
+[0m16:52:45.064824 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:52:46.850379 [debug] [ThreadPool]: SQL status: SUCCESS 1 in 1.784 seconds
+[0m16:52:46.867254 [debug] [ThreadPool]: On create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS: Close
+[0m16:52:47.579357 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly create_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS, now list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS)
+[0m16:52:47.664850 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS"
+[0m16:52:47.669398 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS"} */
+show terse objects in SAP_ANALYTICS_DB.dbt_amine_ANALYTICS limit 10000
+[0m16:52:47.674302 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m16:52:49.301782 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.627 seconds
+[0m16:52:49.313769 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS: Close
+[0m16:52:49.964656 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_countries
+[0m16:52:49.969331 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_customers
+[0m16:52:49.972734 [debug] [Thread-3  ]: Began running node model.dbt_sap_transformations.stg_products
+[0m16:52:49.975914 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:52:49.987056 [info ] [Thread-1  ]: 1 of 5 START sql view model dbt_amine_ANALYTICS.stg_countries .................. [RUN]
+[0m16:52:49.990948 [info ] [Thread-2  ]: 2 of 5 START sql view model dbt_amine_ANALYTICS.stg_customers .................. [RUN]
+[0m16:52:49.997479 [info ] [Thread-3  ]: 3 of 5 START sql view model dbt_amine_ANALYTICS.stg_products ................... [RUN]
+[0m16:52:50.004060 [info ] [Thread-4  ]: 4 of 5 START sql view model dbt_amine_ANALYTICS.stg_sales_order_items .......... [RUN]
+[0m16:52:50.010563 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB_dbt_amine_ANALYTICS, now model.dbt_sap_transformations.stg_countries)
+[0m16:52:50.015587 [debug] [Thread-2  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_customers'
+[0m16:52:50.020280 [debug] [Thread-3  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_products'
+[0m16:52:50.024936 [debug] [Thread-4  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_sales_order_items'
+[0m16:52:50.030758 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_countries
+[0m16:52:50.034701 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_customers
+[0m16:52:50.038572 [debug] [Thread-3  ]: Began compiling node model.dbt_sap_transformations.stg_products
+[0m16:52:50.042726 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:52:50.173778 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_products"
+[0m16:52:50.210425 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_customers"
+[0m16:52:50.222740 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:52:50.232319 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_countries"
+[0m16:52:50.261271 [debug] [Thread-3  ]: Began executing node model.dbt_sap_transformations.stg_products
+[0m16:52:50.272931 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_countries
+[0m16:52:50.284704 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_customers
+[0m16:52:50.308336 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:52:51.001692 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_products"
+[0m16:52:51.035905 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:52:51.034293 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_countries"
+[0m16:52:51.051509 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_customers"
+[0m16:52:51.066759 [debug] [Thread-3  ]: Using snowflake connection "model.dbt_sap_transformations.stg_products"
+[0m16:52:51.073739 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_order_items"
+[0m16:52:51.076500 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_products"} */
+create or replace   view SAP_ANALYTICS_DB.dbt_amine_ANALYTICS.stg_products
+  
+   as (
+    select
+    "MATNR" as product_id,
+    "MAKTX" as product_description,
+    "MTART" as product_type,
+    try_to_decimal("BRGEW", 10, 2) as gross_weight
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+  );
+[0m16:52:51.081617 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_order_items"} */
+create or replace   view SAP_ANALYTICS_DB.dbt_amine_ANALYTICS.stg_sales_order_items
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_number("POSNR") as item_number,
+    "MATNR" as product_id,
+    try_to_number("KWMENG") as quantity,
+    try_to_decimal("NETWR", 12, 2) as net_value
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+  );
+[0m16:52:51.086766 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_customers"
+[0m16:52:51.090648 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m16:52:51.094011 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_countries"
+[0m16:52:51.097579 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m16:52:51.100760 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_customers"} */
+create or replace   view SAP_ANALYTICS_DB.dbt_amine_ANALYTICS.stg_customers
+  
+   as (
+    select
+    "KUNNR" as customer_id,
+    "LAND1" as country_code,
+    "NAME1" as customer_name,
+    "ORT01" as city,
+    "PSTLZ" as postal_code
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+  );
+[0m16:52:51.114955 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_countries"} */
+create or replace   view SAP_ANALYTICS_DB.dbt_amine_ANALYTICS.stg_countries
+  
+   as (
+    select
+    "LAND1" as country_code,
+    "LANDX" as country_name
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+  );
+[0m16:52:51.133147 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m16:52:51.141295 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m16:52:52.923905 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 1.780 seconds
+[0m16:52:53.115724 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 2.025 seconds
+[0m16:52:53.169771 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: Close
+[0m16:52:53.172295 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: Close
+[0m16:52:53.233050 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 2.136 seconds
+[0m16:52:53.240934 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: Close
+[0m16:52:53.258630 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 2.126 seconds
+[0m16:52:53.267842 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: Close
+[0m16:52:53.824611 [info ] [Thread-2  ]: 2 of 5 OK created sql view model dbt_amine_ANALYTICS.stg_customers ............. [[32mSUCCESS 1[0m in 3.80s]
+[0m16:52:53.829458 [info ] [Thread-1  ]: 1 of 5 OK created sql view model dbt_amine_ANALYTICS.stg_countries ............. [[32mSUCCESS 1[0m in 3.80s]
+[0m16:52:53.838433 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_customers
+[0m16:52:53.832552 [info ] [Thread-3  ]: 3 of 5 OK created sql view model dbt_amine_ANALYTICS.stg_products .............. [[32mSUCCESS 1[0m in 3.81s]
+[0m16:52:53.836122 [info ] [Thread-4  ]: 4 of 5 OK created sql view model dbt_amine_ANALYTICS.stg_sales_order_items ..... [[32mSUCCESS 1[0m in 3.79s]
+[0m16:52:53.842336 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_countries
+[0m16:52:53.844399 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_sales_orders
+[0m16:52:53.846832 [debug] [Thread-3  ]: Finished running node model.dbt_sap_transformations.stg_products
+[0m16:52:53.849499 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_order_items
+[0m16:52:53.852531 [info ] [Thread-2  ]: 5 of 5 START sql view model dbt_amine_ANALYTICS.stg_sales_orders ............... [RUN]
+[0m16:52:53.856973 [debug] [Thread-2  ]: Re-using an available connection from the pool (formerly model.dbt_sap_transformations.stg_customers, now model.dbt_sap_transformations.stg_sales_orders)
+[0m16:52:53.859264 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_sales_orders
+[0m16:52:53.876191 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:52:53.893069 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_sales_orders
+[0m16:52:53.913057 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:52:53.928358 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_orders"
+[0m16:52:53.930605 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_orders"} */
+create or replace   view SAP_ANALYTICS_DB.dbt_amine_ANALYTICS.stg_sales_orders
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_date("ERDAT") as creation_date,
+    "AUART" as document_type,
+    "KUNNR" as customer_id
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+  );
+[0m16:52:53.932852 [debug] [Thread-2  ]: Opening a new connection, currently in state closed
+[0m16:52:55.363754 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 1.430 seconds
+[0m16:52:55.390863 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: Close
+[0m16:52:55.971169 [info ] [Thread-2  ]: 5 of 5 OK created sql view model dbt_amine_ANALYTICS.stg_sales_orders .......... [[32mSUCCESS 1[0m in 2.11s]
+[0m16:52:55.979683 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_sales_orders
+[0m16:52:55.994982 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m16:52:55.999451 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_countries' was properly closed.
+[0m16:52:56.007029 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_orders' was properly closed.
+[0m16:52:56.013294 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_products' was properly closed.
+[0m16:52:56.017581 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_order_items' was properly closed.
+[0m16:52:56.028809 [info ] [MainThread]: 
+[0m16:52:56.033933 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 13.96 seconds (13.96s).
+[0m16:52:56.042943 [debug] [MainThread]: Command end result
+[0m16:52:56.288833 [info ] [MainThread]: 
+[0m16:52:56.292541 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m16:52:56.294813 [info ] [MainThread]: 
+[0m16:52:56.298347 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m16:52:56.304460 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 29.628822, "process_user_time": 25.29887, "process_kernel_time": 3.194703, "process_mem_max_rss": "209072", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m16:52:56.307376 [debug] [MainThread]: Command `dbt run` succeeded at 16:52:56.306979 after 29.63 seconds
+[0m16:52:56.309424 [debug] [MainThread]: Flushing usage events
+
+
+============================== 16:53:10.247692 | a40c2ced-bfff-4d33-9d5f-7925ec4b365c ==============================
+[0m16:53:10.247692 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m16:53:10.301071 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m16:53:10.304447 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m16:53:17.294882 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m16:53:17.393649 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m16:53:18.902257 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m16:53:18.906571 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m16:53:20.095463 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m16:53:20.105712 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m16:53:20.118812 [debug] [MainThread]: Command end result
+[0m16:53:20.385073 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 10.455471, "process_user_time": 14.899496, "process_kernel_time": 1.916366, "process_mem_max_rss": "200292", "process_in_blocks": "1144", "process_out_blocks": "0"}
+[0m16:53:20.389003 [debug] [MainThread]: Command `dbt test` succeeded at 16:53:20.388255 after 10.46 seconds
+[0m16:53:20.393143 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:02:14.024304 | de70c48c-29e5-4cf0-990d-52b11096975f ==============================
+[0m17:02:14.024304 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:02:14.049379 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': '/opt/airflow/dbt/logs', 'fail_fast': 'False', 'profiles_dir': '/opt/airflow/dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt run --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'False'}
+[0m17:02:14.050973 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:02:17.463111 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:02:17.592226 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:02:18.108834 [info ] [MainThread]: Unable to do partial parsing because profile has changed
+[0m17:02:18.111702 [info ] [MainThread]: Unable to do partial parsing because a project config has changed
+[0m17:02:26.817734 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m17:02:26.825713 [info ] [MainThread]: 
+[0m17:02:26.832620 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m17:02:26.836233 [info ] [MainThread]: 
+[0m17:02:26.839819 [debug] [MainThread]: Acquiring new snowflake connection 'master'
+[0m17:02:26.895779 [debug] [ThreadPool]: Acquiring new snowflake connection 'list_SAP_ANALYTICS_DB'
+[0m17:02:27.012839 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB"
+[0m17:02:27.015989 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB"} */
+show terse schemas in database SAP_ANALYTICS_DB
+    limit 10000
+[0m17:02:27.018781 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m17:02:28.722902 [debug] [ThreadPool]: SQL status: SUCCESS 4 in 1.704 seconds
+[0m17:02:28.750449 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB: Close
+[0m17:02:29.340858 [debug] [ThreadPool]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB, now list_SAP_ANALYTICS_DB_ANALYTICS)
+[0m17:02:29.416518 [debug] [ThreadPool]: Using snowflake connection "list_SAP_ANALYTICS_DB_ANALYTICS"
+[0m17:02:29.419392 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_ANALYTICS: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "connection_name": "list_SAP_ANALYTICS_DB_ANALYTICS"} */
+show terse objects in SAP_ANALYTICS_DB.ANALYTICS limit 10000
+[0m17:02:29.421898 [debug] [ThreadPool]: Opening a new connection, currently in state closed
+[0m17:02:30.999721 [debug] [ThreadPool]: SQL status: SUCCESS 0 in 1.578 seconds
+[0m17:02:31.007846 [debug] [ThreadPool]: On list_SAP_ANALYTICS_DB_ANALYTICS: Close
+[0m17:02:31.703062 [debug] [Thread-1  ]: Began running node model.dbt_sap_transformations.stg_countries
+[0m17:02:31.707058 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_customers
+[0m17:02:31.711720 [debug] [Thread-3  ]: Began running node model.dbt_sap_transformations.stg_products
+[0m17:02:31.715549 [debug] [Thread-4  ]: Began running node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:02:31.721313 [info ] [Thread-1  ]: 1 of 5 START sql view model ANALYTICS.stg_countries ............................ [RUN]
+[0m17:02:31.729426 [info ] [Thread-2  ]: 2 of 5 START sql view model ANALYTICS.stg_customers ............................ [RUN]
+[0m17:02:31.737653 [info ] [Thread-3  ]: 3 of 5 START sql view model ANALYTICS.stg_products ............................. [RUN]
+[0m17:02:31.744739 [info ] [Thread-4  ]: 4 of 5 START sql view model ANALYTICS.stg_sales_order_items .................... [RUN]
+[0m17:02:31.752063 [debug] [Thread-1  ]: Re-using an available connection from the pool (formerly list_SAP_ANALYTICS_DB_ANALYTICS, now model.dbt_sap_transformations.stg_countries)
+[0m17:02:31.759529 [debug] [Thread-2  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_customers'
+[0m17:02:31.771435 [debug] [Thread-3  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_products'
+[0m17:02:31.789069 [debug] [Thread-4  ]: Acquiring new snowflake connection 'model.dbt_sap_transformations.stg_sales_order_items'
+[0m17:02:31.796868 [debug] [Thread-1  ]: Began compiling node model.dbt_sap_transformations.stg_countries
+[0m17:02:31.807843 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_customers
+[0m17:02:31.819225 [debug] [Thread-3  ]: Began compiling node model.dbt_sap_transformations.stg_products
+[0m17:02:31.829416 [debug] [Thread-4  ]: Began compiling node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:02:31.963593 [debug] [Thread-1  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_countries"
+[0m17:02:31.978791 [debug] [Thread-3  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_products"
+[0m17:02:31.974226 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_customers"
+[0m17:02:32.000621 [debug] [Thread-4  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:02:32.016391 [debug] [Thread-1  ]: Began executing node model.dbt_sap_transformations.stg_countries
+[0m17:02:32.034896 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_customers
+[0m17:02:32.037351 [debug] [Thread-3  ]: Began executing node model.dbt_sap_transformations.stg_products
+[0m17:02:32.067046 [debug] [Thread-4  ]: Began executing node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:02:32.438503 [debug] [Thread-4  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:02:32.435227 [debug] [Thread-3  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_products"
+[0m17:02:32.420783 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_customers"
+[0m17:02:32.463465 [debug] [Thread-1  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_countries"
+[0m17:02:32.474201 [debug] [Thread-4  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_order_items"
+[0m17:02:32.477658 [debug] [Thread-3  ]: Using snowflake connection "model.dbt_sap_transformations.stg_products"
+[0m17:02:32.479818 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_order_items"} */
+create or replace   view SAP_ANALYTICS_DB.ANALYTICS.stg_sales_order_items
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_number("POSNR") as item_number,
+    "MATNR" as product_id,
+    try_to_number("KWMENG") as quantity,
+    try_to_decimal("NETWR", 12, 2) as net_value
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAP
+  );
+[0m17:02:32.482897 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_products"} */
+create or replace   view SAP_ANALYTICS_DB.ANALYTICS.stg_products
+  
+   as (
+    select
+    "MATNR" as product_id,
+    "MAKTX" as product_description,
+    "MTART" as product_type,
+    try_to_decimal("BRGEW", 10, 2) as gross_weight
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_MARA
+  );
+[0m17:02:32.486159 [debug] [Thread-1  ]: Using snowflake connection "model.dbt_sap_transformations.stg_countries"
+[0m17:02:32.488859 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_customers"
+[0m17:02:32.490309 [debug] [Thread-4  ]: Opening a new connection, currently in state init
+[0m17:02:32.492237 [debug] [Thread-3  ]: Opening a new connection, currently in state init
+[0m17:02:32.494150 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_countries"} */
+create or replace   view SAP_ANALYTICS_DB.ANALYTICS.stg_countries
+  
+   as (
+    select
+    "LAND1" as country_code,
+    "LANDX" as country_name
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_T005T
+  );
+[0m17:02:32.496090 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_customers"} */
+create or replace   view SAP_ANALYTICS_DB.ANALYTICS.stg_customers
+  
+   as (
+    select
+    "KUNNR" as customer_id,
+    "LAND1" as country_code,
+    "NAME1" as customer_name,
+    "ORT01" as city,
+    "PSTLZ" as postal_code
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_KNA1
+  );
+[0m17:02:32.512185 [debug] [Thread-1  ]: Opening a new connection, currently in state closed
+[0m17:02:32.517388 [debug] [Thread-2  ]: Opening a new connection, currently in state init
+[0m17:02:35.212892 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 2.694 seconds
+[0m17:02:35.219845 [debug] [Thread-1  ]: SQL status: SUCCESS 1 in 2.708 seconds
+[0m17:02:35.518538 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_customers: Close
+[0m17:02:35.522260 [debug] [Thread-1  ]: On model.dbt_sap_transformations.stg_countries: Close
+[0m17:02:35.669962 [debug] [Thread-3  ]: SQL status: SUCCESS 1 in 3.177 seconds
+[0m17:02:35.692751 [debug] [Thread-3  ]: On model.dbt_sap_transformations.stg_products: Close
+[0m17:02:35.712351 [debug] [Thread-4  ]: SQL status: SUCCESS 1 in 3.221 seconds
+[0m17:02:35.744201 [debug] [Thread-4  ]: On model.dbt_sap_transformations.stg_sales_order_items: Close
+[0m17:02:36.225037 [info ] [Thread-2  ]: 2 of 5 OK created sql view model ANALYTICS.stg_customers ....................... [[32mSUCCESS 1[0m in 4.46s]
+[0m17:02:36.220032 [info ] [Thread-1  ]: 1 of 5 OK created sql view model ANALYTICS.stg_countries ....................... [[32mSUCCESS 1[0m in 4.44s]
+[0m17:02:36.239978 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_customers
+[0m17:02:36.250973 [debug] [Thread-1  ]: Finished running node model.dbt_sap_transformations.stg_countries
+[0m17:02:36.256267 [debug] [Thread-2  ]: Began running node model.dbt_sap_transformations.stg_sales_orders
+[0m17:02:36.286022 [info ] [Thread-2  ]: 5 of 5 START sql view model ANALYTICS.stg_sales_orders ......................... [RUN]
+[0m17:02:36.300338 [info ] [Thread-3  ]: 3 of 5 OK created sql view model ANALYTICS.stg_products ........................ [[32mSUCCESS 1[0m in 4.52s]
+[0m17:02:36.314095 [debug] [Thread-2  ]: Re-using an available connection from the pool (formerly model.dbt_sap_transformations.stg_customers, now model.dbt_sap_transformations.stg_sales_orders)
+[0m17:02:36.321744 [info ] [Thread-4  ]: 4 of 5 OK created sql view model ANALYTICS.stg_sales_order_items ............... [[32mSUCCESS 1[0m in 4.52s]
+[0m17:02:36.327326 [debug] [Thread-3  ]: Finished running node model.dbt_sap_transformations.stg_products
+[0m17:02:36.334455 [debug] [Thread-2  ]: Began compiling node model.dbt_sap_transformations.stg_sales_orders
+[0m17:02:36.342041 [debug] [Thread-4  ]: Finished running node model.dbt_sap_transformations.stg_sales_order_items
+[0m17:02:36.379537 [debug] [Thread-2  ]: Writing injected SQL for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:02:36.400802 [debug] [Thread-2  ]: Began executing node model.dbt_sap_transformations.stg_sales_orders
+[0m17:02:36.420960 [debug] [Thread-2  ]: Writing runtime sql for node "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:02:36.444417 [debug] [Thread-2  ]: Using snowflake connection "model.dbt_sap_transformations.stg_sales_orders"
+[0m17:02:36.447291 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: /* {"app": "dbt", "dbt_version": "1.9.0b2", "profile_name": "dbt_sap_transformations", "target_name": "dev", "node_id": "model.dbt_sap_transformations.stg_sales_orders"} */
+create or replace   view SAP_ANALYTICS_DB.ANALYTICS.stg_sales_orders
+  
+   as (
+    select
+    "VBELN" as sales_order_id,
+    try_to_date("ERDAT") as creation_date,
+    "AUART" as document_type,
+    "KUNNR" as customer_id
+from SAP_ANALYTICS_DB.RAW_STAGING.RAW_VBAK
+  );
+[0m17:02:36.449633 [debug] [Thread-2  ]: Opening a new connection, currently in state closed
+[0m17:02:38.285105 [debug] [Thread-2  ]: SQL status: SUCCESS 1 in 1.835 seconds
+[0m17:02:38.307428 [debug] [Thread-2  ]: On model.dbt_sap_transformations.stg_sales_orders: Close
+[0m17:02:39.639790 [info ] [Thread-2  ]: 5 of 5 OK created sql view model ANALYTICS.stg_sales_orders .................... [[32mSUCCESS 1[0m in 3.32s]
+[0m17:02:39.649393 [debug] [Thread-2  ]: Finished running node model.dbt_sap_transformations.stg_sales_orders
+[0m17:02:39.662046 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m17:02:39.665013 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_countries' was properly closed.
+[0m17:02:39.669180 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_orders' was properly closed.
+[0m17:02:39.677202 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_products' was properly closed.
+[0m17:02:39.680638 [debug] [MainThread]: Connection 'model.dbt_sap_transformations.stg_sales_order_items' was properly closed.
+[0m17:02:39.683972 [info ] [MainThread]: 
+[0m17:02:39.687092 [info ] [MainThread]: Finished running 5 view models in 0 hours 0 minutes and 12.84 seconds (12.84s).
+[0m17:02:39.702264 [debug] [MainThread]: Command end result
+[0m17:02:39.980488 [info ] [MainThread]: 
+[0m17:02:39.983311 [info ] [MainThread]: [32mCompleted successfully[0m
+[0m17:02:39.986076 [info ] [MainThread]: 
+[0m17:02:39.988864 [info ] [MainThread]: Done. PASS=5 WARN=0 ERROR=0 SKIP=0 TOTAL=5
+[0m17:02:39.994426 [debug] [MainThread]: Resource report: {"command_name": "run", "command_success": true, "command_wall_clock_time": 26.302412, "process_user_time": 21.988266, "process_kernel_time": 1.401164, "process_mem_max_rss": "208228", "process_out_blocks": "8", "process_in_blocks": "0"}
+[0m17:02:39.997706 [debug] [MainThread]: Command `dbt run` succeeded at 17:02:39.997311 after 26.31 seconds
+[0m17:02:40.000564 [debug] [MainThread]: Flushing usage events
+
+
+============================== 17:02:53.226382 | 1edf5581-a002-4186-9be9-01a76328a3d1 ==============================
+[0m17:02:53.226382 [info ] [MainThread]: Running with dbt=1.9.0-b2
+[0m17:02:53.241403 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': '/opt/airflow/dbt', 'log_path': '/opt/airflow/dbt/logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test --project-dir /opt/airflow/dbt --profiles-dir /opt/airflow/dbt', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'False'}
+[0m17:02:53.243251 [warn ] [MainThread]: [[33mWARNING[0m]: Deprecated functionality
+
+User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[0m17:02:57.491907 [info ] [MainThread]: Registered adapter: snowflake=1.8.0
+[0m17:02:57.624222 [debug] [MainThread]: checksum: 4cfbbe2a671212f062e88a43cba5322b30b7e3e8e91b953aa4de249eeaade60f, vars: {}, profile: , target: , version: 1.9.0b2
+[0m17:03:00.298636 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+[0m17:03:00.302923 [debug] [MainThread]: Partial parsing enabled, no changes found, skipping parsing
+[0m17:03:02.049509 [info ] [MainThread]: Found 5 models, 5 sources, 453 macros
+[0m17:03:02.061798 [warn ] [MainThread]: Nothing to do. Try checking your model configs and model specification args
+[0m17:03:02.079413 [debug] [MainThread]: Command end result
+[0m17:03:02.439675 [debug] [MainThread]: Resource report: {"command_name": "test", "command_success": true, "command_wall_clock_time": 9.547368, "process_user_time": 14.937989, "process_kernel_time": 1.526949, "process_mem_max_rss": "200476", "process_in_blocks": "48", "process_out_blocks": "0"}
+[0m17:03:02.444899 [debug] [MainThread]: Command `dbt test` succeeded at 17:03:02.444348 after 9.55 seconds
+[0m17:03:02.449223 [debug] [MainThread]: Flushing usage events

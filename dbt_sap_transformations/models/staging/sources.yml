@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: RAW_STAGING
+    database: SAP_ANALYTICS_DB
+    schema: RAW_STAGING
+    tables:
+      - name: RAW_KNA1
+      - name: RAW_MARA
+      - name: RAW_T005T
+      - name: RAW_VBAK
+      - name: RAW_VBAP

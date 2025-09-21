@@ -1,0 +1,18 @@
+# dbt_sap_transformations/dbt_project.yml
+
+name: 'dbt_sap_transformations'
+version: '1.0.0'
+config-version: 2
+
+# This is the most important part. It tells dbt to use the profile
+# with the same name from your profiles.yml file.
+profile: 'dbt_sap_transformations'
+
+# This tells dbt where to find your SQL models.
+model-paths: ["models"]
+
+# These settings are good practice.
+clean-targets:
+  - "target"
+  - "dbt_packages"
+

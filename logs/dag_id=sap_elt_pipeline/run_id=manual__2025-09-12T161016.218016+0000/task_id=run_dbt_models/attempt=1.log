@@ -1,0 +1,23 @@
+[2025-09-12T16:11:30.671+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T16:10:16.218016+00:00 [queued]>
+[2025-09-12T16:11:30.705+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T16:10:16.218016+00:00 [queued]>
+[2025-09-12T16:11:30.707+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-09-12T16:11:30.754+0000] {taskinstance.py:2191} INFO - Executing <Task(BashOperator): run_dbt_models> on 2025-09-12 16:10:16.218016+00:00
+[2025-09-12T16:11:30.775+0000] {standard_task_runner.py:60} INFO - Started process 361 to run task
+[2025-09-12T16:11:30.796+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'sap_elt_pipeline', 'run_dbt_models', 'manual__2025-09-12T16:10:16.218016+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/sap_etl_pipeline.py', '--cfg-path', '/tmp/tmpp2znem2g']
+[2025-09-12T16:11:30.812+0000] {standard_task_runner.py:88} INFO - Job 30: Subtask run_dbt_models
+[2025-09-12T16:11:31.110+0000] {task_command.py:423} INFO - Running <TaskInstance: sap_elt_pipeline.run_dbt_models manual__2025-09-12T16:10:16.218016+00:00 [running]> on host f99cf7ca5f05
+[2025-09-12T16:11:31.439+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='sap_elt_pipeline' AIRFLOW_CTX_TASK_ID='run_dbt_models' AIRFLOW_CTX_EXECUTION_DATE='2025-09-12T16:10:16.218016+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-09-12T16:10:16.218016+00:00'
+[2025-09-12T16:11:31.441+0000] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2025-09-12T16:11:31.443+0000] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'dbt run --project-dir /opt/***/dbt --profiles-dir /opt/***/dbt']
+[2025-09-12T16:11:31.461+0000] {subprocess.py:86} INFO - Output:
+[2025-09-12T16:11:40.760+0000] {subprocess.py:93} INFO - [0m16:11:40  Running with dbt=1.9.0-b2
+[2025-09-12T16:11:40.769+0000] {subprocess.py:93} INFO - [0m16:11:40  [[33mWARNING[0m]: Deprecated functionality
+[2025-09-12T16:11:40.770+0000] {subprocess.py:93} INFO - 
+[2025-09-12T16:11:40.772+0000] {subprocess.py:93} INFO - User config should be moved from the 'config' key in profiles.yml to the 'flags' key in dbt_project.yml.
+[2025-09-12T16:11:46.497+0000] {subprocess.py:93} INFO - [0m16:11:46  Registered adapter: snowflake=1.8.0
+[2025-09-12T16:11:47.659+0000] {subprocess.py:93} INFO - [0m16:11:47  Found 453 macros
+[2025-09-12T16:11:47.662+0000] {subprocess.py:93} INFO - [0m16:11:47  Nothing to do. Try checking your model configs and model specification args
+[2025-09-12T16:11:48.824+0000] {subprocess.py:97} INFO - Command exited with return code 0
+[2025-09-12T16:11:48.901+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=sap_elt_pipeline, task_id=run_dbt_models, execution_date=20250912T161016, start_date=20250912T161130, end_date=20250912T161148
+[2025-09-12T16:11:48.962+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-09-12T16:11:49.097+0000] {taskinstance.py:3280} INFO - 1 downstream tasks scheduled from follow-on schedule check
