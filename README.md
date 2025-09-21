@@ -6,7 +6,7 @@ The entire environment is containerized with Docker, orchestrated with Apache Ai
 
 ## Project Architecture
 
-![Pipeline Architecture](https://github.com/BoktayaAmine/dockerized-sap-analytics-pipeline/blob/main/sap_pipeline.PNG?raw=true)
+![Pipeline Architecture](https://github.com/BoktayaAmine/dockerized-sap-analytics-pipeline/blob/main/sap_pipeline.png?raw=true)
 
 ---
 
