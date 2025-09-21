@@ -6,8 +6,7 @@ The entire environment is containerized with Docker, orchestrated with Apache Ai
 
 ## Project Architecture
 
-![Pipeline Architecture](path/to/your/diagram.png)
-*(**Action:** Replace this line with a screenshot of your Eraser.io diagram!)*
+![Pipeline Architecture](https://github.com/BoktayaAmine/dockerized-sap-analytics-pipeline/blob/main/sap_pipeline.PNG?raw=true)
 
 ---
 
